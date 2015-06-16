@@ -1,43 +1,33 @@
 {
-  "name": "eslint-config-strict",
-  "version": "2.1.0",
-  "description": "ESLint sharable config for strict linting",
-  "main": "index.js",
-  "keywords": [
-    "strict",
-    "style checker",
-    "code style",
-    "code checker",
-    "code linter",
-    "style linter",
-    "simple",
-    "policy",
-    "style",
-    "code",
-    "lint",
-    "eslint",
-    "eslintconfig",
-    "jshint",
-    "jscs",
-    "hint",
-    "enforce",
-    "check",
-    "verify",
-    "quality",
-    "checker",
-    "code standards",
-    "strict style"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/keithamus/eslint-config-strict.git"
+  "name"            : "eslint-config-defaults",
+  "description"     : "A set of default eslint configuration",
+
+  "version"         : "0.0.0",
+  "author"          : "Eric Baer <me@ericbaer.com>",
+
+  "homepage"        : "https://github.com/baer/eslint-config-defaults",
+  "bugs": {
+    "url": "https://github.com/baer/eslint-config-defaults/issues"
   },
+
+  "repository"      : "git://github.com/baer/eslint-config-defaults.git",
+  "private"         : false,
+
   "dependencies": {
-    "eslint": "^0.23.0",
-    "eslint-plugin-filenames": "^0.1.1",
-    "eslint-plugin-one-variable-per-var": "^0.0.3"
+    "eslint-plugin-filenames": "0.1.1",
+    "eslint-plugin-one-variable-per-var": "0.0.3",
+    "eslint": "0.23.0",
+    "lodash": "3.9.3"
   },
-  "author": "Keith Cirkel <npm@keithcirkel.co.uk> (http://keithcirkel.co.uk/)",
-  "license": "MIT",
-  "scripts": {}
+
+  "devDependencies" : {
+  },
+
+  "main": "./index.js",
+
+  "engines":{
+    "node": ">= 0.10.0"
+  },
+
+  "license"         : "MIT"
 }
