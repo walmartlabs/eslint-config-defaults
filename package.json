@@ -4,14 +4,14 @@
   "keywords": [
     "code checker",
     "code linter",
-    "code standards"
+    "code standards",
     "code style",
     "eslint-config",
     "eslint",
     "eslintconfig",
     "lint",
     "style checker",
-    "style linter",
+    "style linter"
   ],
 
   "version"         : "0.0.1",
