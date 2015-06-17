@@ -14,7 +14,6 @@
   "private"         : false,
 
   "dependencies": {
-    "eslint": "0.23.0",
     "lodash": "3.9.3"
   },
 
