@@ -2,7 +2,20 @@
 
 var _ = require('lodash');
 
-var es5Config = _.cloneDeep(require('./defaults'))
-_.merge(es5Config, require('./es6/off.js'))
+var bestPractices = require('./best-practices/default.js');
+var errors = require('./errors/default.js');
+var es6 = require('./es6/off.js');
+var legacy = require('./legacy/off.js');
+var node = require('./node/off.js');
+var strict = require('./strict/default.js');
+var style = require('./style/default.js');
+var variables = require('./variables/default.js');
 
-module.exports = es5Config;
+var defaults = {
+  env: {},
+  ecmaFeatures: {},
+  globals: {},
+  rules: {}
+}
+
+module.exports = _.merge(defaults, bestPractices, errors, es6, legacy, node, strict, style, variables);

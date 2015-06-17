@@ -12,7 +12,7 @@ $ npm install --save-dev eslint-config-defaults
 
 ## Usage
 
-##### Full Configurations
+#### Full Configurations
 
 This set of configs is meant to be extended on a per-project basis as necessary using ESLint's
 shareable configs feature. For more details about how shareable configs work, see the
@@ -20,18 +20,46 @@ shareable configs feature. For more details about how shareable configs work, se
 
 This package includes the following full configurations:
 
-- `defaults`
-- `defaults/browser`
-- `defaults/es5`
-- `defaults/node`
-- `defaults/off`
-- `defaults/test`
+- `defaults` - The default ES5 config
+- `defaults/off` - Turns off all rules.
 
-##### Piecemeal Configurations
 
-Every test in ESLint is broken out into categories in directories that mirror the documentation.
-Each of the following directories can be included as a set of defaults or by including the `off.js`
-file which turns off every rule in this category.
+- `defaults/es5-browser` - The default ES5 config with browser globals
+- `defaults/es5-node` - The default ES5 config with node globals and rules
+- `defaults/es5-test` - The default ES5 config with mocha globals
+- `defaults/es5` - The default ES5 config
+
+
+- `defaults/es6-browser` - The default ES6 config with browser globals
+- `defaults/es6-node` - The default ES6 config with node globals and rules
+- `defaults/es6-test` - The default ES6 config with mocha globals
+- `defaults/es6` - The default ES6 config
+
+To extend a config in ESLint just add the extends attribute to your `.eslintrc`
+
+```json
+{
+  "extends": "defaults"
+}
+```
+
+```json
+{
+  "extends": "defaults/es6-browser"
+}
+```
+
+```json
+{
+  "extends": ["defaults/es6-browser", "defaults/es6-node"]
+}
+```
+
+#### Piecemeal Configurations
+
+Every test in ESLint is broken out into categories that mirror the documentation. Each of the
+following directories can be included as a set of defaults or by including the `off.js` file which
+turns off every rule in this category.
 
 ###### `best-practices`, `errors`, `es6`, `legacy`, `node`, `strict`, `style`, `variables`
 
@@ -53,22 +81,6 @@ return _.extend(
   require('eslint-config-defaults/legacy/off'),
   require('eslint-config-defaults/node/off'),
 );
-```
-
-To extend a config in ESLint just add the extends attribute to your `.eslintrc`
-
-```json
-{
-  "extends": "defaults"
-}
-```
-
-or
-
-```json
-{
-  "extends": "defaults/browser"
-}
 ```
 
 ***
