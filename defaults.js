@@ -1,5 +1,6 @@
 'use strict';
 
+var nodeRules = require('./node/strict.js');
 var styleRules = require('./style/strict.js');
 
 var defaults = {
@@ -294,27 +295,6 @@ var defaults = {
         // disallow use of variables before they are defined
         'no-use-before-define': 2,
 
-        // # Node.js
-        // These rules are specific to JavaScript running on Node.js.
-
-        // enforces error handling in callbacks
-        // node environment)
-        'handle-callback-err': [
-            2,
-            // name of error argument
-            '^.*(e|E)rr(or)?$',
-        ],
-        // disallow mixing regular variable and require declarations
-        'no-mixed-requires': 2,
-        // disallow use of new operator with the require function
-        'no-new-require': 2,
-        // disallow string concatenation with __dirname and __filename
-        'no-path-concat': 2,
-        // disallow process.exit()
-        'no-process-exit': 2,
-        // restrict usage of specified node modules
-        'no-restricted-modules': 0,
-
         // # ECMAScript 6
         // These rules are only relevant to ES6 environments and are off by default.
 
@@ -382,4 +362,4 @@ var defaults = {
     },
 };
 
-module.exports = _.merge(defaults, styleRules);
+module.exports = _.merge(defaults, nodeRules, styleRules);
