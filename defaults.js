@@ -59,11 +59,6 @@ var defaults = {
         node: true
     },
 
-    plugins: [
-        'filenames',
-        'one-variable-per-var',
-    ],
-
     rules: {
 
         // # Possible Errors

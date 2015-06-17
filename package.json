@@ -14,8 +14,6 @@
   "private"         : false,
 
   "dependencies": {
-    "eslint-plugin-filenames": "0.1.1",
-    "eslint-plugin-one-variable-per-var": "0.0.3",
     "eslint": "0.23.0",
     "lodash": "3.9.3"
   },
