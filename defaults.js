@@ -1,8 +1,9 @@
 'use strict';
 
-var es6Rules = require('./es6/strict.js');
-var nodeRules = require('./node/strict.js');
-var styleRules = require('./style/strict.js');
+var es6 = require('./es6');
+var legacy = require('./legacy');
+var node = require('./node');
+var style = require('./style');
 
 var defaults = {
     ecmaFeatures: {
@@ -294,55 +295,8 @@ var defaults = {
         // disallow declaration of variables that are not used in the code
         'no-unused-vars': 2,
         // disallow use of variables before they are defined
-        'no-use-before-define': 2,
-
-        // # Legacy
-        // The following rules are included for compatibility with JSHint and JSLint.
-        // While the names of the rules may not match up with the JSHint/JSLint
-        // counterpart, the functionality is the same.
-
-        // specify the maximum depth that blocks can be nested
-        'max-depth': [
-            2,
-            // the max depth
-            5,
-        ],
-        // specify the maximum length of a line in your program
-        'max-len': [
-            2,
-            // line length
-            120,
-        ],
-        // limits the number of parameters that can be used in the function declaration.
-        'max-params': [
-            2,
-            // max params
-            5,
-        ],
-        // specify the maximum number of statement allowed in a function
-        'max-statements': [
-            2,
-            // max statements
-            50,
-        ],
-        // disallow use of bitwise operators
-        'no-bitwise': 2,
-        // disallow use of unary operators, ++ and --
-        'no-plusplus': 0,
-
-        // # Plugins
-        // The following rules are included based on the plugins available.
-
-        // specify a pattern file names must match
-        'filenames/filenames': [
-            2,
-            // the pattern a file name must match
-            '^[a-z\-\.]+$',
-        ],
-
-        // enforce declaring only one variable per var statement
-        'one-variable-per-var/one-variable-per-var': 2,
+        'no-use-before-define': 2
     },
 };
 
-module.exports = _.merge(defaults, es6Rules, nodeRules, styleRules);
+module.exports = _.merge(defaults, es6, legacy, node, style);
