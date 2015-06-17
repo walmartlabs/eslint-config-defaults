@@ -1,5 +1,6 @@
 'use strict';
 
+var es6Rules = require('./es6/strict.js');
 var nodeRules = require('./node/strict.js');
 var styleRules = require('./style/strict.js');
 
@@ -295,24 +296,6 @@ var defaults = {
         // disallow use of variables before they are defined
         'no-use-before-define': 2,
 
-        // # ECMAScript 6
-        // These rules are only relevant to ES6 environments and are off by default.
-
-        // enforce the spacing around the * in generator functions
-        'generator-star-spacing': [
-            2,
-            'both',
-        ],
-        // require let or const instead of var
-        'no-var': 2,
-        // require method and property shorthand syntax for object literals
-        'object-shorthand': [
-            2,
-            // Enforce shorthand "always", only for "properties", only for "methods", or "never"
-            'always',
-        ],
-        // suggest using of const declaration for variables that are never modified after declared
-        'prefer-const': 2,
         // # Legacy
         // The following rules are included for compatibility with JSHint and JSLint.
         // While the names of the rules may not match up with the JSHint/JSLint
@@ -362,4 +345,4 @@ var defaults = {
     },
 };
 
-module.exports = _.merge(defaults, nodeRules, styleRules);
+module.exports = _.merge(defaults, es6Rules, nodeRules, styleRules);
