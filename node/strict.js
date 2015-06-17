@@ -1,6 +1,9 @@
 'use strict';
 
-var nodeRules = _.cloneDeep(require('./off.js'));
+var _ = require('lodash');
+
+var node = _.cloneDeep(require('./off.js'));
+var nodeRules = node.rules;
 
 // enforces error handling in callbacks (node environment)
 nodeRules['handle-callback-err'] = [
@@ -19,4 +22,4 @@ nodeRules['no-process-exit'] = 2;
 // restrict usage of specified node modules
 nodeRules['no-restricted-modules'] = 2;
 
-module.exports = nodeRules;
+module.exports = node;

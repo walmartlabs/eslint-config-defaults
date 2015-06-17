@@ -1,6 +1,9 @@
 'use strict';
 
-var es6Rules = _.cloneDeep(require('./off.js'));
+var _ = require('lodash');
+
+var es6 = _.cloneDeep(require('./off.js'));
+var es6Rules = es6.rules;
 
 // enforce the spacing around the * in generator functions
 es6Rules['generator-star-spacing'] = 2;
@@ -11,4 +14,4 @@ es6Rules['object-shorthand'] = 2;
 // suggest using of const declaration for variables that are never modified after declared
 es6Rules['prefer-const'] = 0;
 
-module.exports = es6Rules;
+module.exports = es6;

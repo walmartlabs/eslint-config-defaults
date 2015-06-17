@@ -1,7 +1,9 @@
 'use strict';
 
 var _ = require('lodash');
-var styleRules = _.cloneDeep(require('./off.js'));
+
+var style = _.cloneDeep(require('./off.js'));
+var styleRules = style.rules;
 
 // enforce one true brace style
 styleRules.brace-style: [2, "1tbs", { "allowSingleLine": true }];
@@ -86,4 +88,4 @@ styleRules.spaced-line-comment: 2;
 // require regex literals to be wrapped in parentheses
 styleRules.wrap-regex: 0;
 
-module.exports = styleRules;
+module.exports = style;
