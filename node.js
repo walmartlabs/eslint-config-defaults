@@ -2,7 +2,7 @@
 
 var _ = require('lodash');
 
-var browserConfig = _.cloneDeep(require('./es5'));
-browserConfig.env.node = true;
+var nodeConfig = _.cloneDeep(require('./es5'));
+nodeConfig.env.node = true;
 
-module.exports = browserConfig;
+module.exports = nodeConfig;

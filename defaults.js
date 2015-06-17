@@ -19,3 +19,5 @@ var defaults = {
 }
 
 module.exports = _.merge(defaults, bestPractices, errors, es6, legacy, node, strict, style, variables);
+
+console.log(module.exports);

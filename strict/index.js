@@ -7,4 +7,4 @@ var strictRules = strict.rules;
 
 strictRules['strict'] = [2, "global"];
 
-module.exports = strictRules;
+module.exports = strict;
