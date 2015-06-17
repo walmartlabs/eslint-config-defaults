@@ -3,6 +3,7 @@
 var es6 = require('./es6');
 var legacy = require('./legacy');
 var node = require('./node');
+var strict = require('./strict');
 var style = require('./style');
 
 var defaults = {
@@ -257,16 +258,6 @@ var defaults = {
         // require or disallow Yoda conditions
         'yoda': 2,
 
-
-        // # Strict Mode
-        // These rules relate to using strict mode.
-
-        // require that all functions are run in strict mode
-        'strict': [
-            2,
-            'global',
-        ],
-
         // # Variables
         // These rules have to do with variable declarations.
 
@@ -294,4 +285,4 @@ var defaults = {
     },
 };
 
-module.exports = _.merge(defaults, es6, legacy, node, style);
+module.exports = _.merge(defaults, es6, legacy, node, strict, style);
