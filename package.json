@@ -1,6 +1,18 @@
 {
   "name"            : "eslint-config-defaults",
   "description"     : "A set of default eslint configuration",
+  "keywords": [
+    "code checker",
+    "code linter",
+    "code standards"
+    "code style",
+    "eslint-config",
+    "eslint",
+    "eslintconfig",
+    "lint",
+    "style checker",
+    "style linter",
+  ],
 
   "version"         : "0.0.0",
   "author"          : "Eric Baer <me@ericbaer.com>",

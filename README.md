@@ -1,69 +1,53 @@
 # eslint-config-strict
 
-A strict ESLint configurations.
+A set of configurable ESLint configurations.
 
 ## Installation
 
 Install this config package and ESLint:
 
 ```bash
-$ npm install --save-dev eslint eslint-config-strict
+$ npm install --save-dev eslint-config-defaults
 ```
 
 ## Usage
 
-This set of configs is meant to be extended on a per-project basis as necessary
-using ESLint's [shareable configs][] feature.
+This set of configs is meant to be extended on a per-project basis as necessary using ESLint's
+shareable configs feature. For more details about how shareable configs work, see the
+[ESLint documentation](http://eslint.org/docs/developer-guide/shareable-configs).
 
-This package includes the following configurations:
+This package includes the following full configurations:
 
-- `strict`
-- `strict/browser`
-- `strict/test`
+- `defaults`
+- `defaults/browser`
+- `defaults/es5`
+- `defaults/node`
+- `defaults/test`
 
 ### How to use
 
-Simply define your `.eslintrc` like so:
+To extend a config in ESLint just add the extends attribute to your `.eslintrc`
 
 ```json
 {
-  "extends": "strict"
+  "extends": "defaults"
 }
 ```
 
-Also, you can define a `test/.eslintrc` and use the following:
+or
 
 ```json
 {
-  "extends": "strict/test"
-}
-```
-
-If your project is a frontend project, you will need an `.eslintrc` that looks
-like this:
-
-```json
-{
-  "extends": "strict/node"
-}
-```
-
-Feel free to define additional globals or rules, or override them as you see fit:
-
-```json
-{
-  "extends": "strict/browser",
-
-  "globals": {
-    "blarg": true
-  },
-
-  "rules": {
-      "eol-last": 0
-  }
+  "extends": "defaults/browser"
 }
 ```
 
 For more details about how shareable configs work, see the [ESLint documentation][shareable configs].
 
 [shareable configs]: http://eslint.org/docs/developer-guide/shareable-configs
+
+***
+
+## License
+
+[MIT License](http://opensource.org/licenses/MIT)
