@@ -64,7 +64,7 @@ Using these you should be able to create the exact starting config you need
 ```javascript
 var _ = require('lodash');
 
-// Note: ESLint config has deep properties so make sure to use a merge rather than an extend
+// Note: ESLint config has deep properties so make sure to use a merge rather than extend
 return _.merge(
   {
     env: {
