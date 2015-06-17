@@ -12,6 +12,6 @@ es6Rules['no-var'] = 2;
 //require method and property shorthand syntax for object literals
 es6Rules['object-shorthand'] = 2;
 // suggest using of const declaration for variables that are never modified after declared
-es6Rules['prefer-const'] = 0;
+es6Rules['prefer-const'] = 2;
 
 module.exports = es6;

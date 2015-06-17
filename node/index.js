@@ -12,14 +12,16 @@ nodeRules['handle-callback-err'] = [
     '^.*(e|E)rr(or)?$'
 ];
 // disallow mixing regular variable and require declarations
-nodeRules['no-mixed-requires'] = 2;
+nodeRules['no-mixed-requires'] = [1, true];
 // disallow use of new operator with the require function
 nodeRules['no-new-require'] = 2;
 // disallow string concatenation with __dirname and __filename
 nodeRules['no-path-concat'] = 2;
 // disallow process['exit()
-nodeRules['no-process-exit'] = 2;
+nodeRules['no-process-exit'] = 0;
 // restrict usage of specified node modules
-nodeRules['no-restricted-modules'] = 2;
+nodeRules['no-restricted-modules'] = 0;
+// disallow use of synchronous methods (off by default)
+nodeRules['no-sync'] = 0
 
 module.exports = node;
