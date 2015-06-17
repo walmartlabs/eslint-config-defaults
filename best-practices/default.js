@@ -10,15 +10,15 @@ bestPracticesRules['accessor-pairs'] = 2;
 // treat var statements as if they were block scoped
 bestPracticesRules['block-scoped-var'] = 1;
 // specify the maximum cyclomatic complexity allowed in a program
-bestPracticesRules['complexity'] = [1, 250];
+bestPracticesRules['complexity'] = [2, 11];
 // require return statements to either always or never specify values
-bestPracticesRules['consistent-return'] = 0;
+bestPracticesRules['consistent-return'] = 2;
 // specify curly brace conventions for all control statements
-bestPracticesRules['curly'] = 2;
+bestPracticesRules['curly'] = [2, "all"];
 // require default case in switch statements
 bestPracticesRules['default-case'] = 2;
 // encourages use of dot notation whenever possible
-bestPracticesRules['dot-notation'] = 1;
+bestPracticesRules['dot-notation'] = [2, { allowKeywords: true }];
 // enforces consistent newlines before or after dots
 bestPracticesRules['dot-location'] = [2, "property"];
 // require the use of === and !==
@@ -34,7 +34,7 @@ bestPracticesRules['no-div-regex'] = 1;
 // disallow else after a return in an if
 bestPracticesRules['no-else-return'] = 1;
 // disallow use of labels for anything other then loops and switches
-bestPracticesRules['no-empty-label'] = 1;
+bestPracticesRules['no-empty-label'] = 2;
 // disallow comparisons to null without a type-checking operator
 bestPracticesRules['no-eq-null'] = 2;
 // disallow use of eval()
@@ -56,9 +56,9 @@ bestPracticesRules['no-labels'] = 2;
 // disallow unnecessary nested blocks
 bestPracticesRules['no-lone-blocks'] = 2;
 // disallow creation of functions within loops
-bestPracticesRules['no-loop-func'] = 0;
+bestPracticesRules['no-loop-func'] = 2;
 // disallow use of multiple spaces
-bestPracticesRules['no-multi-spaces'] = 0;
+bestPracticesRules['no-multi-spaces'] = 2;
 // disallow use of multiline strings
 bestPracticesRules['no-multi-str'] = 2;
 // disallow reassignments of native objects
@@ -80,9 +80,9 @@ bestPracticesRules['no-process-env'] = 2;
 // disallow usage of __proto__ property
 bestPracticesRules['no-proto'] = 2;
 // disallow declaring the same variable more then once
-bestPracticesRules['no-redeclare'] = 1;
+bestPracticesRules['no-redeclare'] = 2;
 // disallow use of assignment in return statement
-bestPracticesRules['no-return-assign'] = 0;
+bestPracticesRules['no-return-assign'] = 2;
 // disallow use of `javascript:` urls.
 bestPracticesRules['no-script-url'] = 2;
 // disallow comparisons where both sides are exactly the same
@@ -93,10 +93,6 @@ bestPracticesRules['no-sequences'] = 2;
 bestPracticesRules['no-throw-literal'] = 2;
 // disallow usage of expressions in statement position
 bestPracticesRules['no-unused-expressions'] = 2;
-// disallow use of void operator
-bestPracticesRules['no-void'] = 0;
-// disallow usage of configurable warning terms in comments: e.g. todo
-bestPracticesRules['no-warning-comments'] = 0;
 // disallow use of the with statement
 bestPracticesRules['no-with'] = 2;
 // require use of the second argument for parseInt()

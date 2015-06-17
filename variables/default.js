@@ -14,7 +14,7 @@ variablesRules['no-label-var'] = 2;
 // disallow shadowing of names such as arguments
 variablesRules['no-shadow-restricted-names'] = 2;
 // disallow declaration of variables already declared in the outer scope
-variablesRules['no-shadow'] = 1;
+variablesRules['no-shadow'] = 2;
 // disallow use of undefined when initializing variables
 variablesRules['no-undef-init'] = 2;
 // disallow use of undeclared variables unless mentioned in a /*global */ block
@@ -22,7 +22,7 @@ variablesRules['no-undef'] = 2;
 // disallow use of undefined variable
 variablesRules['no-undefined'] = 2;
 // disallow declaration of variables that are not used in the code
-variablesRules['no-unused-vars'] = 1;
+variablesRules['no-unused-vars'] = 2;
 // disallow use of variables before they are defined
 variablesRules['no-use-before-define'] = 2
 
