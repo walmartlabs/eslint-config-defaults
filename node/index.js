@@ -6,7 +6,7 @@ var node = _.cloneDeep(require('./off.js'));
 var nodeRules = node.rules;
 
 // Node.js global variables and Node.js-specific rules.
-es6.env.node = true;
+node.env.node = true;
 
 // enforces error handling in callbacks (node environment)
 nodeRules['handle-callback-err'] = [
