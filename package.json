@@ -4,17 +4,17 @@
   "keywords": [
     "code checker",
     "code linter",
-    "code standards"
+    "code standards",
     "code style",
     "eslint-config",
     "eslint",
     "eslintconfig",
     "lint",
     "style checker",
-    "style linter",
+    "style linter"
   ],
 
-  "version"         : "0.0.1",
+  "version"         : "0.1.0",
   "author"          : "Eric Baer <me@ericbaer.com>",
 
   "homepage"        : "https://github.com/baer/eslint-config-defaults",
