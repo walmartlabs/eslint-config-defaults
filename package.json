@@ -32,7 +32,7 @@
   "devDependencies" : {
   },
 
-  "main": "./index.js",
+  "main": "./defaults.js",
 
   "engines":{
     "node": ">= 0.10.0"

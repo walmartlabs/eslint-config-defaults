@@ -24,6 +24,7 @@ This package includes the following full configurations:
 - `defaults/browser`
 - `defaults/es5`
 - `defaults/node`
+- `defaults/off`
 - `defaults/test`
 
 ##### Piecemeal Configurations
