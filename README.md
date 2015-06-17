@@ -24,6 +24,7 @@ This package includes the following full configurations:
 - `defaults/browser`
 - `defaults/es5`
 - `defaults/node`
+- `defaults/off`
 - `defaults/test`
 
 ##### Piecemeal Configurations
@@ -54,8 +55,6 @@ return _.extend(
 );
 ```
 
-### How to use
-
 To extend a config in ESLint just add the extends attribute to your `.eslintrc`
 
 ```json
@@ -71,10 +70,6 @@ or
   "extends": "defaults/browser"
 }
 ```
-
-For more details about how shareable configs work, see the [ESLint documentation][shareable configs].
-
-[shareable configs]: http://eslint.org/docs/developer-guide/shareable-configs
 
 ***
 

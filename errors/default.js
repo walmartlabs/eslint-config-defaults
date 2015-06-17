@@ -6,7 +6,7 @@ var errors = _.cloneDeep(require('./off.js'));
 var errorRules = errors.rules;
 
 // disallow trailing commas in object literals
-errorRules['comma-dangle'] = [2, "never"];
+errorRules['comma-dangle'] = 2;
 // disallow assignment in conditional expressions
 errorRules['no-cond-assign'] = 2;
 // disallow use of console
@@ -32,7 +32,7 @@ errorRules['no-ex-assign'] = 2;
 // disallow double-negation boolean casts in a boolean context
 errorRules['no-extra-boolean-cast'] = 2;
 // disallow unnecessary parentheses
-errorRules['no-extra-parens'] = 0;
+errorRules['no-extra-parens'] = 2;
 // disallow unnecessary semicolons
 errorRules['no-extra-semi'] = 2;
 // disallow overwriting functions written as function declarations
@@ -58,7 +58,7 @@ errorRules['no-unreachable'] = 2;
 // disallow comparisons with the value NaN
 errorRules['use-isnan'] = 2;
 // ensure JSDoc comments are valid
-errorRules['valid-jsdoc'] = [1, { "prefer": { "return": "return" }, "requireReturn": false }];
+errorRules['valid-jsdoc'] = 2;
 // ensure that the results of typeof are compared against a valid string
 errorRules['valid-typeof'] = 2;
 
