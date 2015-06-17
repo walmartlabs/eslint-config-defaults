@@ -1,4 +1,8 @@
-module.exports = require('./defaults');
+'use strict';
 
-module.exports.rules['no-var'] = 0;
-module.exports.rules['prefer-const'] = 0;
+var _ = require('lodash');
+
+var es5Config = _.cloneDeep(require('./defaults'))
+_.merge(es5Config, require('./es6/off.js'))
+
+module.exports = es5Config;

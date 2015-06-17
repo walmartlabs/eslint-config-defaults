@@ -1,6 +1,12 @@
 'use strict';
 
 module.exports = {
+  env: {
+    es6: false
+  },
+  ecmaFeatures: {
+    modules: false
+  },
   rules: {
     // enforce the spacing around the * in generator functions
     'generator-star-spacing': 0,
