@@ -21,15 +21,19 @@ shareable configs feature. For more details about how shareable configs work, se
 This package includes the following full configurations:
 
 - `defaults` - The default ES5 config
+- `defaults/off` - Turns off all rules.
+
+
 - `defaults/es5-browser` - The default ES5 config with browser globals
 - `defaults/es5-node` - The default ES5 config with node globals and rules
 - `defaults/es5-test` - The default ES5 config with mocha globals
 - `defaults/es5` - The default ES5 config
+
+
 - `defaults/es6-browser` - The default ES6 config with browser globals
 - `defaults/es6-node` - The default ES6 config with node globals and rules
 - `defaults/es6-test` - The default ES6 config with mocha globals
 - `defaults/es6` - The default ES6 config
-- `defaults/off` - Turns off all rules.
 
 To extend a config in ESLint just add the extends attribute to your `.eslintrc`
 
