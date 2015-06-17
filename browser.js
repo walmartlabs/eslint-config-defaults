@@ -1,4 +1,8 @@
-module.exports = require('./es5');
+'use strict';
 
-module.exports.env.node = false;
-module.exports.env.browser = true;
+var _ = require('lodash');
+
+var browserConfig = _.cloneDeep(require('./es5'));
+browserConfig.env.browser = true;
+
+module.exports = browserConfig;

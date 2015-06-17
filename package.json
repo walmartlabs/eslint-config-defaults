@@ -1,8 +1,20 @@
 {
   "name"            : "eslint-config-defaults",
   "description"     : "A set of default eslint configuration",
+  "keywords": [
+    "code checker",
+    "code linter",
+    "code standards"
+    "code style",
+    "eslint-config",
+    "eslint",
+    "eslintconfig",
+    "lint",
+    "style checker",
+    "style linter",
+  ],
 
-  "version"         : "0.0.0",
+  "version"         : "0.0.1",
   "author"          : "Eric Baer <me@ericbaer.com>",
 
   "homepage"        : "https://github.com/baer/eslint-config-defaults",
@@ -14,9 +26,6 @@
   "private"         : false,
 
   "dependencies": {
-    "eslint-plugin-filenames": "0.1.1",
-    "eslint-plugin-one-variable-per-var": "0.0.3",
-    "eslint": "0.23.0",
     "lodash": "3.9.3"
   },
 
