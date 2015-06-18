@@ -1,3 +1,9 @@
+## 0.3.5 (2015-06-17)
+
+#### User Facing Changes
+
+* * README Updates
+
 ## 0.3.4 (2015-06-17)
 
 #### User Facing Changes
