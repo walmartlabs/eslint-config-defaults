@@ -14,7 +14,7 @@
     "style linter"
   ],
 
-  "version"         : "0.3.2",
+  "version"         : "0.3.3",
   "author"          : "Eric Baer <me@ericbaer.com>",
 
   "homepage"        : "https://github.com/baer/eslint-config-defaults",
@@ -38,5 +38,5 @@
     "node": ">= 0.10.0"
   },
 
-  "license"         : "MIT"
+  "license": "MIT"
 }
