@@ -61,23 +61,21 @@ turns off every rule in this category.
 
 Using these you should be able to create the exact starting config you need
 
-```javascript
-var _ = require('lodash');
+```json
+{
+  "extends": [
+    "./node_modules/eslint-config-defaults/best-practices/default.js",
+    "./node_modules/eslint-config-defaults/errors/default.js"
 
-// Note: ESLint config has deep properties so make sure to use a merge rather than extend
-return _.merge(
-  {
-    env: {
-      phantom: true
-    }
-  },
-  require('eslint-config-defaults/best-practices/default'),
-  require('eslint-config-defaults/errors/default'),
+    "./node_modules/eslint-config-defaults/es6/off.js"
+    "./node_modules/eslint-config-defaults/legacy/off.js"
+    "./node_modules/eslint-config-defaults/node/off.js"
+  ]
 
-  require('eslint-config-defaults/es6/off'),
-  require('eslint-config-defaults/legacy/off'),
-  require('eslint-config-defaults/node/off'),
-);
+  "env" {
+    "phantom": true
+  }
+}
 ```
 
 ***
