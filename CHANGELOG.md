@@ -1,3 +1,28 @@
+## 0.3.4 (2015-06-17)
+
+#### User Facing Changes
+
+* * Correct bug that caused some configs not to load
+
+## 0.3.3 (2015-06-17)
+
+#### User Facing Changes
+
+* README Updates
+* Correct bug that caused some configs not to load
+
+## 0.3.2 (2015-06-17)
+
+#### User Facing Changes
+
+* README Updates
+
+## 0.3.1 (2015-06-17)
+
+#### User Facing Changes
+
+* README Updates
+
 ## 0.3.0 (2015-06-17)
 
 #### User Facing Changes
