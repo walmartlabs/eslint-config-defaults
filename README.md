@@ -21,7 +21,7 @@ shareable configs feature. For more details about how shareable configs work, se
 This package includes the following full configurations:
 
 - `defaults` - The default ES5 config
-- `defaults/off` - Turns off all rules.
+- `defaults/off` - Turns off all rules. This will be ESLint's default after 1.0.0
 - `defaults/es5-browser` - The default ES5 config with browser globals
 - `defaults/es5-node` - The default ES5 config with node globals and rules
 - `defaults/es5-test` - The default ES5 config with mocha globals
@@ -45,15 +45,9 @@ To extend a config in ESLint just add the extends attribute to your `.eslintrc`
 }
 ```
 
-```json
-{
-  "extends": ["defaults/es6-browser", "defaults/es6-node"]
-}
-```
-
 #### Piecemeal Configurations
 
-Every test in ESLint is broken out into categories that mirror the documentation. Each of the
+ESLint configuration is broken out into categories that mirror the documentation. Each of the
 following directories can be included as a set of defaults or by including the `off.js` file which
 turns off every rule in this category.
 
@@ -63,13 +57,19 @@ Using these you should be able to create the exact starting config you need
 
 ```json
 {
-  "extends": [
-    "./node_modules/eslint-config-defaults/best-practices/default.js",
-    "./node_modules/eslint-config-defaults/errors/default.js"
+  "extends": ["defaults/es6-browser", "defaults/legacy/defaults.js"]
+}
+```
 
-    "./node_modules/eslint-config-defaults/es6/off.js"
-    "./node_modules/eslint-config-defaults/legacy/off.js"
-    "./node_modules/eslint-config-defaults/node/off.js"
+```json
+{
+  "extends": [
+    "defaults/best-practices/default.js",
+    "defaults/errors/default.js"
+
+    "defaults/es6/off.js"
+    "defaults/legacy/off.js"
+    "defaults/node/off.js"
   ]
 
   "env" {
