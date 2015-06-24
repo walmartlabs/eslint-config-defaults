@@ -36,6 +36,4 @@ out/
 # --------------------
 # App Files
 # --------------------
-config/
-public-dev/
 node_modules/
