@@ -9,7 +9,7 @@ module.exports = _.merge({}, require('./off.js'), {
   },
   ecmaFeatures: {
     // enable modules and global strict mode
-    modules = true;
+    modules: true
   },
   rules: {
     // enforce the spacing around the * in generator functions

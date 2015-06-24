@@ -2,14 +2,14 @@
 
 var _ = require('lodash');
 
-var bestPractices = require('./best-practices/off.js');
-var errors = require('./errors/off.js');
-var es6 = require('./es6/off.js');
-var legacy = require('./legacy/off.js');
-var node = require('./node/off.js');
-var strict = require('./strict/off.js');
-var style = require('./style/off.js');
-var variables = require('./variables/off.js');
+var bestPractices = require('./config/best-practices/off.js');
+var errors = require('./config/errors/off.js');
+var es6 = require('./config/es6/off.js');
+var legacy = require('./config/legacy/off.js');
+var node = require('./config/node/off.js');
+var strict = require('./config/strict/off.js');
+var style = require('./config/style/off.js');
+var variables = require('./config/variables/off.js');
 
 var defaults = {
   env: {},
