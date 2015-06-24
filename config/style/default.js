@@ -5,7 +5,7 @@ var _ = require('lodash');
 module.exports = _.merge({}, require('./off.js'), {
   rules: {
     // enforce one true brace style
-    'brace-style': [2, "1tbs", { "allowSingleLine": true }],
+    'brace-style': [2, '1tbs', { 'allowSingleLine': true }],
     // require camel case names
     'camelcase': 2,
     // enforce spacing before and after comma
@@ -13,7 +13,7 @@ module.exports = _.merge({}, require('./off.js'), {
     // enforce one true comma style
     'comma-style': 2,
     // enforces consistent naming when capturing the current execution context
-    'consistent-this': [2, "self"],
+    'consistent-this': [2, 'self'],
     // enforce newline at the end of file, with no multiple empty lines
     'eol-last': 2,
     // enforces spacing between keys and values in object literal properties
@@ -45,11 +45,11 @@ module.exports = _.merge({}, require('./off.js'), {
     // disallow wrapping of non-IIFE statements in parens
     'no-wrap-func': 2,
     // allow just one var statement per function
-    'one-var': [2, "never"],
+    'one-var': [2, 'never'],
     // allow just one var statement per function
-    'operator-assignment': [2, "always"],
+    'operator-assignment': [2, 'always'],
     // specify whether double or single quotes should be used
-    'quotes': [1, "single", "avoid-escape"],
+    'quotes': [1, 'single', 'avoid-escape'],
     // require or disallow use of semicolons instead of ASI
     'semi': 2,
     // enforce spacing before and after semicolons
@@ -59,7 +59,7 @@ module.exports = _.merge({}, require('./off.js'), {
     // require or disallow space before blocks
     'space-before-blocks': 2,
     // require or disallow space before function opening parenthesis
-    'space-before-function-paren': [2, {anonymous: "always", named: "never" }],
+    'space-before-function-paren': [2, {anonymous: 'always', named: 'never' }],
     // require or disallow spaces inside parentheses
     'space-in-parens': 2,
     // require spaces around operators
