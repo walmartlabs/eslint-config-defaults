@@ -32,7 +32,7 @@
   "devDependencies" : {
   },
 
-  "main": "./es5.js",
+  "main": "./complete-config/es5.js",
 
   "engines":{
     "node": ">= 0.10.0"
