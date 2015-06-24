@@ -2,9 +2,6 @@
 
 var _ = require('lodash');
 
-module.exports = _.merge(
-  {
-    env: { browser: true }
-  },
-  require('./es6.js')
-);
+module.exports = _.merge({}, require('./es6.js'), {
+  env: { browser: true }
+});
