@@ -1,3 +1,14 @@
+## 1.0.0 (2015-06-25)
+
+#### User Facing Changes
+
+* move complete configurations and rulesets into `configurations` and `rules` respectively
+* Add missing changelog entries
+
+#### Internal Changes
+
+* Lint the lint config
+
 ## 0.4.0 (2015-06-24)
 
 #### User Facing Changes
