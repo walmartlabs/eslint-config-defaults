@@ -1,20 +1,49 @@
+## 1.0.0 (2015-06-25)
+
+#### User Facing Changes
+
+* move complete configurations and rulesets into `configurations` and `rules` respectively
+* Add missing changelog entries
+
+#### Internal Changes
+
+* Lint the lint config
+
+## 0.4.0 (2015-06-24)
+
+#### User Facing Changes
+
+* Rev non patch version to support the breaking changes from 0.3.6 -> 0.3.7
+
+## 0.3.7 (2015-06-24)
+
+#### User Facing Changes
+
+* Move config groups into config directory
+* Add airbnb style config
+
+#### Internal Changes
+
+* Remove js prop access in favor of object merge
+* DRY up es6 configs
+
 ## 0.3.6 (2015-06-17)
 
 #### User Facing Changes
 
-* * README Updates
+* README Updates
 
 ## 0.3.5 (2015-06-17)
 
 #### User Facing Changes
 
-* * README Updates
+* README Updates
 
 ## 0.3.4 (2015-06-17)
 
 #### User Facing Changes
 
-* * Correct bug that caused some configs not to load
+* Correct bug that caused some configs not to load
 
 ## 0.3.3 (2015-06-17)
 

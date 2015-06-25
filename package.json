@@ -14,7 +14,7 @@
     "style linter"
   ],
 
-  "version"         : "0.4.0",
+  "version"         : "1.0.0",
   "author"          : "Eric Baer <me@ericbaer.com>",
 
   "homepage"        : "https://github.com/baer/eslint-config-defaults",
@@ -32,7 +32,7 @@
   "devDependencies" : {
   },
 
-  "main": "./es5.js",
+  "main": "./configurations/es5.js",
 
   "engines":{
     "node": ">= 0.10.0"

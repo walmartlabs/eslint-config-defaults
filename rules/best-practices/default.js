@@ -13,13 +13,13 @@ module.exports = _.merge({}, require('./off.js'), {
     // require return statements to either always or never specify values
     'consistent-return': 2,
     // specify curly brace conventions for all control statements
-    'curly': [2, "all"],
+    'curly': [2, 'all'],
     // require default case in switch statements
     'default-case': 2,
     // encourages use of dot notation whenever possible
     'dot-notation': [2, { allowKeywords: true }],
     // enforces consistent newlines before or after dots
-    'dot-location': [2, "property"],
+    'dot-location': [2, 'property'],
     // require the use of === and !==
     'eqeqeq': 2,
     // make sure for-in loops have an if statement
@@ -70,7 +70,7 @@ module.exports = _.merge({}, require('./off.js'), {
     'no-new-wrappers': 2,
     // disallow use of (old style) octal literals
     'no-octal': 2,
-    // disallow use of octal escape sequences in string literals, such as var foo = "Copyright \050",
+    // disallow use of octal escape sequences in string literals, such as var foo = 'Copyright \050',
     'no-octal-escape': 2,
     // disallow reassignment of function parameters
     'no-param-reassign': 2,
@@ -99,8 +99,8 @@ module.exports = _.merge({}, require('./off.js'), {
     // requires to declare all vars on top of their containing scope
     'vars-on-top': 1,
     // require immediate function invocation to be wrapped in parentheses
-    'wrap-iife': [2, "inside"],
+    'wrap-iife': [2, 'inside'],
     // require or disallow Yoda conditions
-    'yoda': [2, "never"]
+    'yoda': [2, 'never']
   }
 });
