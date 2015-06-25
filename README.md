@@ -12,7 +12,7 @@ $ npm install --save-dev eslint-config-defaults
 
 ## Usage
 
-#### Full Configurations
+##### Full Configurations
 
 This set of configs is meant to be extended on a per-project basis as necessary using ESLint's
 shareable configs feature. For more details about how shareable configs work, see the
@@ -45,19 +45,25 @@ To extend a config in ESLint just add the extends attribute to your `.eslintrc`
 }
 ```
 
-#### Piecemeal Configurations
+##### Piecemeal Configurations
 
-ESLint rules are broken out into categories that mirror the documentation. Each of the following
-directories can be included as a set of defaults or by including the `off.js` file which turns off
-every rule in this category.
+ESLint configuration is broken into two parts: `rules` and `variants`
 
-###### `best-practices`, `errors`, `es6`, `legacy`, `node`, `strict`, `style`, `variables`
+* Rules - The full set of ESLint rules are included in the project broken into categories that
+mirror the documentation. Under each rule type there are sets of configuration as well as an
+`off.js` file which turns off every rule in this category.
 
-Using these you can create the exact starting config you need
+* variants - Variants are a collection of modifiers that amend a set of rules to run in specific
+ environments like `browser` or `node`.
+
+###### Examples
 
 ```json
 {
-  "extends": ["defaults/configurations/es6-browser", "defaults/rules/legacy/defaults.js"]
+  "extends": [
+    "defaults/configurations/es6",
+    "defaults/variants/node"
+  ]
 }
 ```
 
