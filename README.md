@@ -12,7 +12,7 @@ $ npm install --save-dev eslint-config-defaults
 
 ## Usage
 
-##### Full Configurations
+### Full Configurations
 
 This set of configs is meant to be extended on a per-project basis as necessary using ESLint's
 shareable configs feature. For more details about how shareable configs work, see the
@@ -45,7 +45,7 @@ To extend a config in ESLint just add the extends attribute to your `.eslintrc`
 }
 ```
 
-##### Piecemeal Configurations
+### Piecemeal Configurations
 
 ESLint configuration is broken into two parts: `rules` and `variants`
 
