@@ -2,4 +2,4 @@
 
 var _ = require('lodash');
 
-module.exports = _.merge({}, require('./es5.js'), require('../variants/node.js'));
+module.exports = _.merge({}, require('./es5.js'), require('../environments/node.js'));

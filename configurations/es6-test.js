@@ -2,4 +2,4 @@
 
 var _ = require('lodash');
 
-module.exports = _.merge({}, require('./es6.js'), require('../variants/test.js'));
+module.exports = _.merge({}, require('./es6.js'), require('../environments/test.js'));
