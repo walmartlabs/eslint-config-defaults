@@ -62,7 +62,7 @@ mirror the documentation. Under each rule type there are sets of configuration a
 {
   "extends": [
     "defaults/configurations/es6",
-    "defaults/variants/node"
+    "defaults/environments/node"
   ]
 }
 ```
@@ -70,12 +70,12 @@ mirror the documentation. Under each rule type there are sets of configuration a
 ```json
 {
   "extends": [
-    "defaults/rules/best-practices/default.js",
-    "defaults/rules/errors/default.js"
+    "defaults/rules/eslint/best-practices/default.js",
+    "defaults/rules/eslint/errors/default.js"
 
-    "defaults/rules/es6/off.js"
-    "defaults/rules/legacy/off.js"
-    "defaults/rules/node/off.js"
+    "defaults/rules/eslint/es6/off.js"
+    "defaults/rules/eslint/legacy/off.js"
+    "defaults/rules/eslint/node/off.js"
   ]
 
   "env" {
