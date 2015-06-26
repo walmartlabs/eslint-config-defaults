@@ -1,5 +1,11 @@
 <h1 align="center">eslint-config-defaults</h1>
 
+<p align="center">
+  <a href="https://nodei.co/npm/eslint-config-defaults/">
+    <img src="https://nodei.co/npm/eslint-config-defaults.png?compact=true">
+  </a>
+</p>
+
 <h4 align="center">
   A composable set of ESLint configurations.
 </h4>
