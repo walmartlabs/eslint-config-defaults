@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = require('../rules/node/default.js');
+module.exports = require('../rules/eslint/node/default.js');
