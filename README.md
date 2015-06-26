@@ -1,6 +1,10 @@
-# eslint-config-strict
+<h1 align="center">eslint-config-defaults</h1>
 
-A set of configurable ESLint configurations.
+<h4 align="center">
+  A composable set of ESLint configurations.
+</h4>
+
+***
 
 ## Installation
 
@@ -14,11 +18,7 @@ $ npm install --save-dev eslint-config-defaults
 
 ### Full Configurations
 
-This set of configs is meant to be extended on a per-project basis as necessary using ESLint's
-shareable configs feature. For more details about how shareable configs work, see the
-[ESLint documentation](http://eslint.org/docs/developer-guide/shareable-configs).
-
-This package includes the following full configurations:
+This package includes the following complete and ready to use configurations:
 
 - `defaults` - The default ES5 config
 - `defaults/configurations/off` - Turns off all rules. This will be ESLint's default after 1.0.0
@@ -31,7 +31,9 @@ This package includes the following full configurations:
 - `defaults/configurations/es6-test` - The default ES6 config with mocha globals
 - `defaults/configurations/es6` - The default ES6 config
 
-To extend a config in ESLint just add the extends attribute to your `.eslintrc`
+To consume and extend a config in ESLint just add the extends attribute to your `.eslintrc`. For
+more details about how shareable configs work, see the
+[ESLint documentation](http://eslint.org/docs/developer-guide/shareable-configs).
 
 ```json
 {
@@ -47,14 +49,14 @@ To extend a config in ESLint just add the extends attribute to your `.eslintrc`
 
 ### Piecemeal Configurations
 
-ESLint configuration is broken into two parts: `rules` and `variants`
+ESLint configuration is broken into two parts: `rules` and `environments`
 
 * Rules - The full set of ESLint rules are included in the project broken into categories that
 mirror the documentation. Under each rule type there are sets of configuration as well as an
 `off.js` file which turns off every rule in this category.
 
-* variants - Variants are a collection of modifiers that amend a set of rules to run in specific
- environments like `browser` or `node`.
+* Environments - Environments are a collection of modifiers that amend a set of generic rules to run
+in specific environments like `browser` or `node`.
 
 ###### Examples
 
