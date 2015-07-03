@@ -26,7 +26,7 @@ $ npm install --save-dev eslint-config-defaults
 
 This package includes the following complete and ready to use configurations:
 
-- `defaults` - The default ES5 config
+- `defaults` - The default ESLint config
 - `defaults/configurations/off` - Turns off all rules. This will be ESLint's default after 1.0.0
 - `defaults/configurations/es5-browser` - The default ES5 config with browser globals
 - `defaults/configurations/es5-node` - The default ES5 config with node globals and rules
