@@ -29,16 +29,15 @@ This package includes the following complete and ready to use configurations:
 - `defaults` - The default ESLint config
 - `defaults/configurations/eslint` - The default ESLint config
 - `defaults/configurations/airbnb` - Config from the [AirBnB Style Guide](https://github.com/airbnb/javascript)
-- `defaults/configurations/walmart` - Config used on Walmart and WalmartLabs projects
+- `defaults/configurations/walmart/walmart-es5-browser` - Walmart ES5 config with browser globals
+- `defaults/configurations/walmart/walmart-es5-node` - Walmart ES5 config with node globals and rules
+- `defaults/configurations/walmart/walmart-es5-test` - Walmart ES5 config with mocha globals
+- `defaults/configurations/walmart/walmart-es5` - Walmart ES5 config
+- `defaults/configurations/walmart/walmart-es6-browser` - Walmart ES6 config with browser globals
+- `defaults/configurations/walmart/walmart-es6-node` - Walmart ES6 config with node globals and rules
+- `defaults/configurations/walmart/walmart-es6-test` - Walmart ES6 config with mocha globals
+- `defaults/configurations/walmart/walmart-es6` - Walmart ES6 config
 - `defaults/configurations/off` - Turns off all rules. This will be ESLint's default after 1.0.0
-- `defaults/configurations/es5-browser` - The default ES5 config with browser globals
-- `defaults/configurations/es5-node` - The default ES5 config with node globals and rules
-- `defaults/configurations/es5-test` - The default ES5 config with mocha globals
-- `defaults/configurations/es5` - The default ES5 config
-- `defaults/configurations/es6-browser` - The default ES6 config with browser globals
-- `defaults/configurations/es6-node` - The default ES6 config with node globals and rules
-- `defaults/configurations/es6-test` - The default ES6 config with mocha globals
-- `defaults/configurations/es6` - The default ES6 config
 
 To consume and extend a config in ESLint just add the extends attribute to your `.eslintrc`. For
 more details about how shareable configs work, see the
@@ -52,7 +51,7 @@ more details about how shareable configs work, see the
 
 ```json
 {
-  "extends": "defaults/configurations/es6-browser"
+  "extends": "defaults/configurations/walmart/walmart-es6-browser"
 }
 ```
 
@@ -72,8 +71,8 @@ in specific environments like `browser` or `node`.
 ```json
 {
   "extends": [
-    "defaults/configurations/es6",
-    "defaults/environments/node"
+    "defaults/configurations/walmart/walmart-es6",
+    "defaults/environments/browser"
   ]
 }
 ```
