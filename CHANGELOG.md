@@ -1,3 +1,18 @@
+## 2.0.0 (2015-07-05)
+
+#### User Facing Changes
+
+* Replace "default" config with named configs (airbnb, walmart, eslint)
+* Extract environment config into new directory
+* Move rules into eslint directory for cleaner addition of plugins
+* Add ESLint's default config and set it to the new default
+* Add WalmartLabs config
+* Add AirBnB config
+
+#### Internal Changes
+
+* Update lodash
+
 ## 1.0.0 (2015-06-25)
 
 #### User Facing Changes
