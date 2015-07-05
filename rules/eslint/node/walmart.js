@@ -2,7 +2,7 @@
 
 module.exports = {
   env: {
-    node: false
+    node: true
   },
   rules: {
     // enforces error handling in callbacks (node environment)
