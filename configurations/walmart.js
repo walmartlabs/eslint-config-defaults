@@ -15,8 +15,8 @@ var defaults = {
   env: {},
   ecmaFeatures: {},
   globals: {
-    require: false
-    module: false
+    require: false,
+    module: false,
     process: false
   },
   rules: {}
