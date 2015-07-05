@@ -1,3 +1,10 @@
+## 2.1.0 (2015-07-05)
+
+#### User Facing Changes
+
+* Correct bug causing walmart configs to fail
+* Rename walmart configs for brevity
+
 ## 2.0.1 (2015-07-05)
 
 #### Internal Changes

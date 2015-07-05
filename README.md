@@ -29,14 +29,14 @@ This package includes the following complete and ready to use configurations:
 - `defaults` - The default ESLint config
 - `defaults/configurations/eslint` - The default ESLint config
 - `defaults/configurations/airbnb` - Config from the [AirBnB Style Guide](https://github.com/airbnb/javascript)
-- `defaults/configurations/walmart/walmart-es5-browser` - Walmart ES5 + browser
-- `defaults/configurations/walmart/walmart-es5-node` - Walmart ES5 + node
-- `defaults/configurations/walmart/walmart-es5-test` - Walmart ES5 + test
-- `defaults/configurations/walmart/walmart-es5` - Walmart ES5 config
-- `defaults/configurations/walmart/walmart-es6-browser` - Walmart ES6 + browser
-- `defaults/configurations/walmart/walmart-es6-node` - Walmart ES6 + node
-- `defaults/configurations/walmart/walmart-es6-test` - Walmart ES6 + test
-- `defaults/configurations/walmart/walmart-es6` - Walmart ES6 config
+- `defaults/configurations/walmart/es5-browser` - Walmart ES5 + browser
+- `defaults/configurations/walmart/es5-node` - Walmart ES5 + node
+- `defaults/configurations/walmart/es5-test` - Walmart ES5 + test
+- `defaults/configurations/walmart/es5` - Walmart ES5 config
+- `defaults/configurations/walmart/es6-browser` - Walmart ES6 + browser
+- `defaults/configurations/walmart/es6-node` - Walmart ES6 + node
+- `defaults/configurations/walmart/es6-test` - Walmart ES6 + test
+- `defaults/configurations/walmart/es6` - Walmart ES6 config
 - `defaults/configurations/off` - Turns off all rules. This will be ESLint's default after 1.0.0
 
 To consume and extend a config in ESLint just add the extends attribute to your `.eslintrc`. For
@@ -51,7 +51,7 @@ more details about how shareable configs work, see the
 
 ```json
 {
-  "extends": "defaults/configurations/walmart/walmart-es6-browser"
+  "extends": "defaults/configurations/walmart/es6-browser"
 }
 ```
 
@@ -71,7 +71,7 @@ in specific environments like `browser` or `node`.
 ```json
 {
   "extends": [
-    "defaults/configurations/walmart/walmart-es6",
+    "defaults/configurations/walmart/es6",
     "defaults/environments/browser"
   ]
 }
@@ -80,8 +80,8 @@ in specific environments like `browser` or `node`.
 ```json
 {
   "extends": [
-    "defaults/rules/eslint/best-practices/default.js",
-    "defaults/rules/eslint/errors/default.js"
+    "defaults/rules/eslint/best-practices/walmart.js",
+    "defaults/rules/eslint/errors/airbnb.js"
 
     "defaults/rules/eslint/es6/off.js"
     "defaults/rules/eslint/legacy/off.js"
