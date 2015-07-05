@@ -1,3 +1,9 @@
+## 2.0.1 (2015-07-05)
+
+#### Internal Changes
+
+* Update README for readability
+
 ## 2.0.0 (2015-07-05)
 
 #### User Facing Changes
