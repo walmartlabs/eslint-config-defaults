@@ -29,13 +29,13 @@ This package includes the following complete and ready to use configurations:
 - `defaults` - The default ESLint config
 - `defaults/configurations/eslint` - The default ESLint config
 - `defaults/configurations/airbnb` - Config from the [AirBnB Style Guide](https://github.com/airbnb/javascript)
-- `defaults/configurations/walmart/walmart-es5-browser` - Walmart ES5 config with browser globals
-- `defaults/configurations/walmart/walmart-es5-node` - Walmart ES5 config with node globals and rules
-- `defaults/configurations/walmart/walmart-es5-test` - Walmart ES5 config with mocha globals
+- `defaults/configurations/walmart/walmart-es5-browser` - Walmart ES5 + browser
+- `defaults/configurations/walmart/walmart-es5-node` - Walmart ES5 + node
+- `defaults/configurations/walmart/walmart-es5-test` - Walmart ES5 + test
 - `defaults/configurations/walmart/walmart-es5` - Walmart ES5 config
-- `defaults/configurations/walmart/walmart-es6-browser` - Walmart ES6 config with browser globals
-- `defaults/configurations/walmart/walmart-es6-node` - Walmart ES6 config with node globals and rules
-- `defaults/configurations/walmart/walmart-es6-test` - Walmart ES6 config with mocha globals
+- `defaults/configurations/walmart/walmart-es6-browser` - Walmart ES6 + browser
+- `defaults/configurations/walmart/walmart-es6-node` - Walmart ES6 + node
+- `defaults/configurations/walmart/walmart-es6-test` - Walmart ES6 + test
 - `defaults/configurations/walmart/walmart-es6` - Walmart ES6 config
 - `defaults/configurations/off` - Turns off all rules. This will be ESLint's default after 1.0.0
 
