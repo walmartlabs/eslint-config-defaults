@@ -2,6 +2,8 @@
 
 module.exports = {
   "rules": {
+    // enforce spacing inside array brackets
+    "array-bracket-spacing": 0,
     // enforce one true brace style
     "brace-style": 0,
     // require camel case names

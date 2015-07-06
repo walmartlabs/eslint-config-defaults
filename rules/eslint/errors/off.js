@@ -57,6 +57,8 @@ module.exports = {
     // ensure JSDoc comments are valid
     "valid-jsdoc": 0,
     // ensure that the results of typeof are compared against a valid string
-    "valid-typeof": 0
+    "valid-typeof": 0,
+    // Avoid code that looks like two expressions but is actually one
+    "no-unexpected-multiline": 0
   }
 };
