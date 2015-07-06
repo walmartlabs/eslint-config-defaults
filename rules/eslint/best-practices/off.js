@@ -68,7 +68,8 @@ module.exports = {
     "no-new-wrappers": 0,
     // disallow use of (old style) octal literals
     "no-octal": 0,
-    // disallow use of octal escape sequences in string literals, such as var foo = "Copyright \050";
+    // disallow use of octal escape sequences in string literals, such as
+    // var foo = "Copyright \251";
     "no-octal-escape": 0,
     // disallow reassignment of function parameters
     "no-param-reassign": 0,
