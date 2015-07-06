@@ -2,7 +2,7 @@
 
 module.exports = {
   "plugins": [
-    // "react"
+    "react"
   ],
   "ecmaFeatures": {
     "jsx": false
