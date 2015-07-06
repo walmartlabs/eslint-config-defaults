@@ -1,8 +1,15 @@
+## 3.0.2 (2015-07-06)
+
+#### User Facing Changes
+
+* Convert README examples to YAML since shared config is broken in JSON
+* Add deprecated ESLint config that was on by default. Will be removed at ESLint 1.0
+
 ## 3.0.1 (2015-07-06)
 
 #### User Facing Changes
 
-* Remove `.js` siffix from readme configs
+* Remove `.js` suffix from README configs
 
 #### Internal Changes
 
