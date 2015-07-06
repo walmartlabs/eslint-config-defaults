@@ -2,19 +2,19 @@
 
 module.exports = {
   "env": {
-    "es6": false
+    "es6": true
   },
   "ecmaFeatures": {
-    "modules": false
+    "modules": true
   },
   "rules": {
     // enforce the spacing around the * in generator functions
-    "generator-star-spacing": 0,
+    "generator-star-spacing": 2,
     // require let or const instead of var
-    "no-var": 0,
+    "no-var": 2,
     // require method and property shorthand syntax for object literals
-    "object-shorthand": 0,
+    "object-shorthand": 2,
     // suggest using of const declaration for variables that are never modified after declared
-    "prefer-const": 0
+    "prefer-const": 2
   }
 };
