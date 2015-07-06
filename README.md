@@ -22,6 +22,8 @@ $ npm install --save-dev eslint-config-defaults
 
 ## Usage
 
+**This package is made for for ESLint 0.24.0+**
+
 ### Full Configurations
 
 This package includes the following complete and ready to use configurations:
@@ -35,6 +37,7 @@ This package includes the following complete and ready to use configurations:
 - `defaults/configurations/walmart/es5` - Walmart ES5 config
 - `defaults/configurations/walmart/es6-browser` - Walmart ES6 + browser
 - `defaults/configurations/walmart/es6-node` - Walmart ES6 + node
+- `defaults/configurations/walmart/es6-react` - Walmart ES6 + react (Requires [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react))
 - `defaults/configurations/walmart/es6-test` - Walmart ES6 + test
 - `defaults/configurations/walmart/es6` - Walmart ES6 config
 - `defaults/configurations/off` - Turns off all rules. This will be ESLint's default after 1.0.0

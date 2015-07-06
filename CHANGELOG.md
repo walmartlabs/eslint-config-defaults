@@ -1,3 +1,19 @@
+## 3.0.0 (2015-07-06)
+
+#### User Facing Changes
+
+* Bring config up to date with ESLint 0.24.0
+* Add React plugin config
+* walmart: Add mocha to es5 test
+* walmart: Turn on global strict mode in es6 and es5-node config
+* walmart: Turn on all ES6 rules
+
+#### Internal Changes
+
+* Correct improper overrides in walmart/test
+* Wrap all properties in " for easier transfer from json <-> javascript
+* Correct linting errors
+
 ## 2.1.0 (2015-07-05)
 
 #### User Facing Changes

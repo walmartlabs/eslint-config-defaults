@@ -1,18 +1,18 @@
-'use strict';
+"use strict";
 
 module.exports = {
-  rules: {
+  "rules": {
     // specify the maximum depth that blocks can be nested
-    'max-depth': 0,
+    "max-depth": 0,
     // specify the maximum length of a line in your program
-    'max-len': 0,
+    "max-len": 0,
     // limits the number of parameters that can be used in the function declaration.
-    'max-params': 0,
+    "max-params": 0,
     // specify the maximum number of statement allowed in a function
-    'max-statements': 0,
+    "max-statements": 0,
     // disallow use of bitwise operators
-    'no-bitwise': 0,
+    "no-bitwise": 0,
     // disallow use of unary operators, ++ and --
-    'no-plusplus': 0
+    "no-plusplus": 0
   }
 };
