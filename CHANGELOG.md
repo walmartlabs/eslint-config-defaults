@@ -1,3 +1,9 @@
+## 3.0.3 (2015-07-06)
+
+#### Internal Changes
+
+* Add missing comma that prevented the strict rules from being loaded
+
 ## 3.0.2 (2015-07-06)
 
 #### User Facing Changes
