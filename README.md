@@ -22,6 +22,8 @@ $ npm install --save-dev eslint-config-defaults
 
 ## Usage
 
+**This package is made for for ESLint 0.24.0+**
+
 ### Full Configurations
 
 This package includes the following complete and ready to use configurations:
