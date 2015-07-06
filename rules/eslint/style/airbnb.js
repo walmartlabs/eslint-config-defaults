@@ -1,104 +1,104 @@
-'use strict';
+"use strict";
 
 module.exports = {
-  rules: {
+  "rules": {
     // enforce one true brace style
-    'brace-style': [2, "1tbs", { "allowSingleLine": true }],
+    "brace-style": [2, "1tbs", { "allowSingleLine": true }],
     // require camel case names
-    'camelcase': [2, {"properties": "never"}],
+    "camelcase": [2, {"properties": "never"}],
     // enforce spacing before and after comma
-    'comma-spacing': [2, {"before": false, "after": true}],
+    "comma-spacing": [2, {"before": false, "after": true}],
     // enforce one true comma style
-    'comma-style': [2, "last"],
+    "comma-style": [2, "last"],
     // require or disallow padding inside computed properties
-    'computed-property-spacing': [0, "never"],
+    "computed-property-spacing": [0, "never"],
     // enforces consistent naming when capturing the current execution context
-    'consistent-this': [0, "that"],
+    "consistent-this": [0, "that"],
     // enforce newline at the end of file, with no multiple empty lines
-    'eol-last': 2,
+    "eol-last": 2,
     // require function expressions to have a name
-    'func-names': 1,
+    "func-names": 1,
     // enforces use of function declarations or expressions
-    'func-style': [0, "declaration"],
+    "func-style": [0, "declaration"],
     // this option sets a specific tab width for your code
-    'indent': [2, 2],
+    "indent": [2, 2],
     // enforces spacing between keys and values in object literal properties
-    'key-spacing': [2, { "beforeColon": false, "afterColon": true }],
+    "key-spacing": [2, { "beforeColon": false, "afterColon": true }],
     // enforces empty lines around comments
-    'lines-around-comment': 0,
-    // disallow mixed 'LF' and 'CRLF' as linebreaks
-    'linebreak-style': [0, "unix"],
+    "lines-around-comment": 0,
+    // disallow mixed "LF" and "CRLF" as linebreaks
+    "linebreak-style": [0, "unix"],
     // specify the maximum depth callbacks can be nested
-    'max-nested-callbacks': [0, 2],
+    "max-nested-callbacks": [0, 2],
     // require a capital letter for constructors
-    'new-cap': [2, {"newIsCap": true}],
+    "new-cap": [2, {"newIsCap": true}],
     // disallow the omission of parentheses when invoking a constructor with no arguments
-    'new-parens': 2,
+    "new-parens": 2,
     // allow/disallow an empty newline after var statement
-    'newline-after-var': 0,
+    "newline-after-var": 0,
     // disallow use of the Array constructor
-    'no-array-constructor': 2,
+    "no-array-constructor": 2,
     // disallow use of the continue statement
-    'no-continue': 0,
+    "no-continue": 0,
     // disallow comments inline after code
-    'no-inline-comments': 0,
+    "no-inline-comments": 0,
     // disallow if as the only statement in an else block
-    'no-lonely-if': 0,
+    "no-lonely-if": 0,
     // disallow mixed spaces and tabs for indentation
-    'no-mixed-spaces-and-tabs': [2, false],
+    "no-mixed-spaces-and-tabs": [2, false],
     // disallow multiple empty lines
-    'no-multiple-empty-lines': [2, {"max": 2}],
+    "no-multiple-empty-lines": [2, {"max": 2}],
     // disallow nested ternary expressions
-    'no-nested-ternary': 2,
+    "no-nested-ternary": 2,
     // disallow use of the Object constructor
-    'no-new-object': 2,
+    "no-new-object": 2,
     // disallow space between function identifier and application
-    'no-spaced-func': 2,
+    "no-spaced-func": 2,
     // disallow the use of ternary operators
-    'no-ternary': 0,
+    "no-ternary": 0,
     // disallow trailing whitespace at the end of lines
-    'no-trailing-spaces': 2,
+    "no-trailing-spaces": 2,
     // disallow dangling underscores in identifiers
-    'no-underscore-dangle': 0,
+    "no-underscore-dangle": 0,
     // disallow the use of Boolean literals in conditional expressions
-    'no-unneeded-ternary': 0,
+    "no-unneeded-ternary": 0,
     // require or disallow padding inside curly braces
-    'object-curly-spacing': [0, "never"],
+    "object-curly-spacing": [0, "never"],
     // allow just one var statement per function
-    'one-var': [2, "never"],
+    "one-var": [2, "never"],
     // require assignment operator shorthand where possible or prohibit it entirely
-    'operator-assignment': [0, "always"],
+    "operator-assignment": [0, "always"],
     // enforce operators to be placed before or after line breaks
-    'operator-linebreak': 0,
+    "operator-linebreak": 0,
     // enforce padding within blocks
-    'padded-blocks': [2, "never"],
+    "padded-blocks": [2, "never"],
     // require quotes around object literal property names
-    'quote-props': 0,
+    "quote-props": 0,
     // specify whether double or single quotes should be used
-    'quotes': [2, "single", "avoid-escape"],
+    "quotes": [2, "single", "avoid-escape"],
     // enforce spacing before and after semicolons
-    'semi-spacing': [2, {"before": false, "after": true}],
+    "semi-spacing": [2, {"before": false, "after": true}],
     // require or disallow use of semicolons instead of ASI
-    'semi': [2, "always"],
+    "semi": [2, "always"],
     // sort variables within the same declaration block
-    'sort-vars': 0,
+    "sort-vars": 0,
     // require a space after certain keywords
-    'space-after-keywords': 2,
+    "space-after-keywords": 2,
     // require or disallow space before blocks
-    'space-before-blocks': 2,
+    "space-before-blocks": 2,
     // require or disallow space before function opening parenthesis
-    'space-before-function-paren': [2, "never"],
+    "space-before-function-paren": [2, "never"],
     // require or disallow spaces inside parentheses
-    'space-in-parens': [0, "never"],
+    "space-in-parens": [0, "never"],
     // require spaces around operators
-    'space-infix-ops': 2,
+    "space-infix-ops": 2,
     // require a space after return, throw, and case
-    'space-return-throw-case': 2,
+    "space-return-throw-case": 2,
     // Require or disallow spaces before/after unary operators
-    'space-unary-ops': [2, { "words": true, "nonwords": false }],
+    "space-unary-ops": [2, { "words": true, "nonwords": false }],
     // require or disallow a space immediately following the // or /* in a comment
-    'spaced-comment': 0,
+    "spaced-comment": 0,
     // require regex literals to be wrapped in parentheses
-    'wrap-regex': 0
+    "wrap-regex": 0
   }
 };
