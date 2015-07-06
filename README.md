@@ -46,16 +46,15 @@ To consume and extend a config in ESLint just add the extends attribute to your 
 more details about how shareable configs work, see the
 [ESLint documentation](http://eslint.org/docs/developer-guide/shareable-configs).
 
-```json
-{
-  "extends": "defaults"
-}
+```yaml
+---
+"extends":
+  - "defaults"
 ```
 
-```json
-{
-  "extends": "defaults/configurations/walmart/es6-browser"
-}
+```yaml
+"extends":
+  - "defaults/configurations/walmart/es6-browser"
 ```
 
 ### Piecemeal Configurations
@@ -71,30 +70,25 @@ in specific environments like `browser` or `node`.
 
 ###### Examples
 
-```json
-{
-  "extends": [
-    "defaults/configurations/walmart/es6",
-    "defaults/environments/browser"
-  ]
-}
+```yaml
+---
+"extends":
+  - "defaults/configurations/walmart/es6",
+  - "defaults/environments/browser"
 ```
 
-```json
-{
-  "extends": [
-    "defaults/rules/eslint/best-practices/walmart",
-    "defaults/rules/eslint/errors/airbnb"
+```yaml
+---
+"extends":
+  - "defaults/rules/eslint/best-practices/walmart",
+  - "defaults/rules/eslint/errors/airbnb"
 
-    "defaults/rules/eslint/es6/off"
-    "defaults/rules/eslint/legacy/off"
-    "defaults/rules/eslint/node/off"
-  ]
+  - "defaults/rules/eslint/es6/off"
+  - "defaults/rules/eslint/legacy/off"
+  - "defaults/rules/eslint/node/off"
 
-  "env" {
-    "phantom": true
-  }
-}
+"env":
+  "phantom": true
 ```
 
 ***
