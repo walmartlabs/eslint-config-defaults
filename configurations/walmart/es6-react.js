@@ -9,7 +9,7 @@ module.exports = _.merge({},
       "fetch": false              // Expect a `fetch` polyfill.
     },
     "rules": {
-      "no-extra-parens": 0        // Want `return (<Foo />);` to be allowed.
+      "no-extra-parens": 0,       // Want `return (<Foo />);` to be allowed.
       "no-var": 2
     }
   }

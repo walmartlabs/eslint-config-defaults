@@ -6,7 +6,7 @@ module.exports = {
   ],
   "ecmaFeatures": {
     "jsx": false
-  }
+  },
   "rules": {
     // Prevent missing displayName in a React component definition
     "react/display-name": 0,

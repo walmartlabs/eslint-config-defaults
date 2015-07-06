@@ -1,13 +1,13 @@
 "use strict";
 
 module.exports = {
-  "parser": "babel-eslint"
+  "parser": "babel-eslint",
   "plugins": [
     "react"
   ],
   "ecmaFeatures": {
     "jsx": false
-  }
+  },
   "rules": {
     // Prevent missing displayName in a React component definition
     "react/display-name": 0,
