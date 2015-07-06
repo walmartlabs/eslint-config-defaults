@@ -1,3 +1,14 @@
+## 3.0.1 (2015-07-06)
+
+#### User Facing Changes
+
+* Remove `.js` siffix from readme configs
+
+#### Internal Changes
+
+* Update repo urls
+* Correct lint errors in the project
+
 ## 3.0.0 (2015-07-06)
 
 #### User Facing Changes

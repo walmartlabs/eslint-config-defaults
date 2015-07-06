@@ -14,15 +14,15 @@
     "style linter"
   ],
 
-  "version"         : "3.0.0",
+  "version"         : "3.0.1",
   "author"          : "Eric Baer <me@ericbaer.com>",
 
-  "homepage"        : "https://github.com/baer/eslint-config-defaults",
+  "homepage"        : "https://github.com/walmartlabs/eslint-config-defaults",
   "bugs": {
-    "url": "https://github.com/baer/eslint-config-defaults/issues"
+    "url": "https://github.com/walmartlabs/eslint-config-defaults/issues"
   },
 
-  "repository"      : "git://github.com/baer/eslint-config-defaults.git",
+  "repository"      : "git://github.com/walmartlabs/eslint-config-defaults.git",
   "private"         : false,
 
   "dependencies": {

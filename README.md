@@ -37,7 +37,7 @@ This package includes the following complete and ready to use configurations:
 - `defaults/configurations/walmart/es5` - Walmart ES5 config
 - `defaults/configurations/walmart/es6-browser` - Walmart ES6 + browser
 - `defaults/configurations/walmart/es6-node` - Walmart ES6 + node
-- `defaults/configurations/walmart/es6-react` - Walmart ES6 + react (Requires [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react))
+- `defaults/configurations/walmart/es6-react` - Walmart ES6 + react (requires [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react))
 - `defaults/configurations/walmart/es6-test` - Walmart ES6 + test
 - `defaults/configurations/walmart/es6` - Walmart ES6 config
 - `defaults/configurations/off` - Turns off all rules. This will be ESLint's default after 1.0.0
@@ -83,12 +83,12 @@ in specific environments like `browser` or `node`.
 ```json
 {
   "extends": [
-    "defaults/rules/eslint/best-practices/walmart.js",
-    "defaults/rules/eslint/errors/airbnb.js"
+    "defaults/rules/eslint/best-practices/walmart",
+    "defaults/rules/eslint/errors/airbnb"
 
-    "defaults/rules/eslint/es6/off.js"
-    "defaults/rules/eslint/legacy/off.js"
-    "defaults/rules/eslint/node/off.js"
+    "defaults/rules/eslint/es6/off"
+    "defaults/rules/eslint/legacy/off"
+    "defaults/rules/eslint/node/off"
   ]
 
   "env" {
