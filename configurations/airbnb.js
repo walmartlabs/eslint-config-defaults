@@ -10,6 +10,7 @@ var node = require("../rules/eslint/node/airbnb.js");
 var strict = require("../rules/eslint/strict/airbnb.js");
 var style = require("../rules/eslint/style/airbnb.js");
 var variables = require("../rules/eslint/variables/airbnb.js");
+var react = require('../rules/react/airbnb.js');
 
 var defaults = {
   "parser": "babel-eslint",
@@ -34,5 +35,6 @@ module.exports = _.merge(
   node,
   strict,
   style,
-  variables
+  variables,
+  react
 );
