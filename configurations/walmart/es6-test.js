@@ -2,9 +2,9 @@
 
 var _ = require('lodash');
 
-module.exports = _.merge({
-    env: { mocha: true }
-  },
+module.exports = _.merge({},
   require('./es6.js'),
-  require('../../environments/test.js')
+  require('../../environments/test.js'), {
+    env: { mocha: true }
+  }
 );
