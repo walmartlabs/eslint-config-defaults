@@ -30,7 +30,7 @@ module.exports = {
     // Prevent usage of setState in componentDidUpdate
     "react/no-did-update-set-state": 2,
     // Prevent multiple component definition per file
-    "react/no-multi-comp": 2,
+    "react/no-multi-comp": 0,
     // Prevent usage of unknown DOM property
     "react/no-unknown-property": 2,
     // Prevent missing props validation in a React component definition
