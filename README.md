@@ -53,6 +53,7 @@ more details about how shareable configs work, see the
 ```
 
 ```yaml
+---
 "extends":
   - "defaults/configurations/walmart/es6-browser"
 ```
