@@ -60,23 +60,9 @@ more details about how shareable configs work, see the
 
 ### Piecemeal Configurations
 
-ESLint configuration is broken into two parts: `rules` and `environments`
-
-* Rules - The full set of ESLint rules are included in the project broken into categories that
-mirror the documentation. Under each rule type there are sets of configuration as well as an
-`off.js` file which turns off every rule in this category.
-
-* Environments - Environments are a collection of modifiers that amend a set of generic rules to run
-in specific environments like `browser` or `node`.
+ESLint configuration is broken apart in `./rules` containing ESLint's rules and rules for specific ESLint plugins. The full set of ESLint rules (`./rules/eslint`) are broken into categories that mirror ESLint's documentation. Under each rule type there are sets of configuration as well as an `off.js` file which turns off every rule in the category.
 
 ###### Examples
-
-```yaml
----
-"extends":
-  - "defaults/configurations/walmart/es6",
-  - "defaults/environments/browser"
-```
 
 ```yaml
 ---
