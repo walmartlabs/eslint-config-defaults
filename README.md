@@ -22,7 +22,7 @@ $ npm install --save-dev eslint-config-defaults
 
 ## Usage
 
-**This package is made for for ESLint 0.24.0+**
+**This package is made for for ESLint 0.24.1+ and eslint-plugin-react 3.1.0+**
 
 ### Full Configurations
 

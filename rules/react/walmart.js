@@ -13,6 +13,10 @@ module.exports = {
     "react/display-name": 0,
     // Enforce boolean attributes notation in JSX
     "react/jsx-boolean-value": 2,
+    // Enforce or disallow spaces inside of curly braces in JSX attributes
+    "react/jsx-curly-spacing": 0
+    // Prevent duplicate props in JSX
+    "react/jsx-no-duplicate-props": 0,
     // Disallow undeclared variables in JSX
     "react/jsx-no-undef": 2,
     // Enforce quote style for JSX attributes
@@ -25,6 +29,8 @@ module.exports = {
     "react/jsx-uses-react": 2,
     // Prevent variables used in JSX to be incorrectly marked as unused
     "react/jsx-uses-vars": 2,
+    // Prevent usage of dangerous JSX properties
+    "react/no-danger": 0,
     // Prevent usage of setState in componentDidMount
     "react/no-did-mount-set-state": 2,
     // Prevent usage of setState in componentDidUpdate
