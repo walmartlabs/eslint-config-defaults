@@ -2,6 +2,7 @@
 
 var _ = require("lodash");
 
+// ESLint Core
 var bestPractices = require("../rules/eslint/best-practices/airbnb.js");
 var errors = require("../rules/eslint/errors/airbnb.js");
 var es6 = require("../rules/eslint/es6/airbnb.js");
@@ -10,6 +11,8 @@ var node = require("../rules/eslint/node/airbnb.js");
 var strict = require("../rules/eslint/strict/airbnb.js");
 var style = require("../rules/eslint/style/airbnb.js");
 var variables = require("../rules/eslint/variables/airbnb.js");
+
+// Plugins
 var react = require("../rules/react/airbnb.js");
 
 var defaults = {

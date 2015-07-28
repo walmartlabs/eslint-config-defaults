@@ -2,6 +2,7 @@
 
 var _ = require("lodash");
 
+// ESLint Core
 var bestPractices = require("../rules/eslint/best-practices/off.js");
 var errors = require("../rules/eslint/errors/off.js");
 var es6 = require("../rules/eslint/es6/off.js");
