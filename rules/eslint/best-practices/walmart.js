@@ -49,7 +49,7 @@ module.exports = {
     // disallow use of eval()-like methods
     "no-implied-eval": 2,
     // disallow this keywords outside of classes or class-like objects
-    "no-invalid-this": 0,
+    "no-invalid-this": 2,
     // disallow usage of __iterator__ property
     "no-iterator": 2,
     // disallow use of labeled statements
@@ -96,7 +96,7 @@ module.exports = {
     // disallow usage of expressions in statement position
     "no-unused-expressions": 2,
     // disallow unnecessary .call() and .apply()
-    "no-useless-call": 0,
+    "no-useless-call": 2,
     // disallow use of void operator
     "no-void": 0,
     // disallow usage of configurable warning terms in comments: e.g. todo
