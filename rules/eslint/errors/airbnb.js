@@ -3,7 +3,7 @@
 module.exports = {
   "rules": {
     // disallow trailing commas in object literals
-    "comma-dangle": [2, "never"],
+    "comma-dangle": [2, "always-multiline"],
     // disallow assignment in conditional expressions
     "no-cond-assign": [2, "always"],
     // disallow use of console
@@ -29,7 +29,7 @@ module.exports = {
     // disallow double-negation boolean casts in a boolean context
     "no-extra-boolean-cast": 0,
     // disallow unnecessary parentheses
-    "no-extra-parens": 0,
+    "no-extra-parens": [2, "functions"],
     // disallow unnecessary semicolons
     "no-extra-semi": 2,
     // disallow overwriting functions written as function declarations

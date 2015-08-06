@@ -3,13 +3,13 @@
 module.exports = {
   "rules": {
     // enforce spacing inside array brackets
-    "array-bracket-spacing": 0,
+    "array-bracket-spacing": [0, "never"],
     // enforce one true brace style
     "brace-style": [0, "1tbs"],
     // require camel case names
-    "camelcase": 2,
+    "camelcase": 0,
     // enforce spacing before and after comma
-    "comma-spacing": 2,
+    "comma-spacing": 0,
     // enforce one true comma style
     "comma-style": 0,
     // require or disallow padding inside computed properties
@@ -17,15 +17,17 @@ module.exports = {
     // enforces consistent naming when capturing the current execution context
     "consistent-this": [0, "that"],
     // enforce newline at the end of file, with no multiple empty lines
-    "eol-last": 2,
+    "eol-last": 0,
     // require function expressions to have a name
     "func-names": 0,
     // enforces use of function declarations or expressions
     "func-style": [0, "declaration"],
+    // this option enforces minimum and maximum identifier lengths (variable names, property names etc.)
+    "id-length": 0,
     // this option sets a specific tab width for your code
     "indent": 0,
     // enforces spacing between keys and values in object literal properties
-    "key-spacing": [2, { "beforeColon": false, "afterColon": true }],
+    "key-spacing": [0, { "beforeColon": false, "afterColon": true }],
     // enforces empty lines around comments
     "lines-around-comment": 0,
     // disallow mixed "LF" and "CRLF" as linebreaks
@@ -33,13 +35,13 @@ module.exports = {
     // specify the maximum depth callbacks can be nested
     "max-nested-callbacks": [0, 2],
     // require a capital letter for constructors
-    "new-cap": 2,
+    "new-cap": 0,
     // disallow the omission of parentheses when invoking a constructor with no arguments
-    "new-parens": 2,
+    "new-parens": 0,
     // allow/disallow an empty newline after var statement
     "newline-after-var": 0,
     // disallow use of the Array constructor
-    "no-array-constructor": 2,
+    "no-array-constructor": 0,
     // disallow use of the continue statement
     "no-continue": 0,
     // disallow comments inline after code
@@ -53,15 +55,15 @@ module.exports = {
     // disallow nested ternary expressions
     "no-nested-ternary": 0,
     // disallow use of the Object constructor
-    "no-new-object": 2,
+    "no-new-object": 0,
     // disallow space between function identifier and application
-    "no-spaced-func": 2,
+    "no-spaced-func": 0,
     // disallow the use of ternary operators
     "no-ternary": 0,
     // disallow trailing whitespace at the end of lines
-    "no-trailing-spaces": 2,
+    "no-trailing-spaces": 0,
     // disallow dangling underscores in identifiers
-    "no-underscore-dangle": 2,
+    "no-underscore-dangle": 0,
     // disallow the use of Boolean literals in conditional expressions
     "no-unneeded-ternary": 0,
     // require or disallow padding inside curly braces
@@ -77,11 +79,13 @@ module.exports = {
     // require quotes around object literal property names
     "quote-props": 0,
     // specify whether double or single quotes should be used
-    "quotes": [2, "double"],
+    "quotes": [0, "double"],
+    // require identifiers to match the provided regular expression
+    "id-match": 0,
     // enforce spacing before and after semicolons
     "semi-spacing": [2, {"before": false, "after": true}],
     // require or disallow use of semicolons instead of ASI
-    "semi": 2,
+    "semi": 0,
     // sort variables within the same declaration block
     "sort-vars": 0,
     // require a space after certain keywords
@@ -93,11 +97,11 @@ module.exports = {
     // require or disallow spaces inside parentheses
     "space-in-parens": [0, "never"],
     // require spaces around operators
-    "space-infix-ops": 2,
+    "space-infix-ops": 0,
     // require a space after return, throw, and case
-    "space-return-throw-case": 2,
+    "space-return-throw-case": 0,
     // Require or disallow spaces before/after unary operators
-    "space-unary-ops": [2, { "words": true, "nonwords": false }],
+    "space-unary-ops": [0, { "words": true, "nonwords": false }],
     // require or disallow a space immediately following the // or /* in a comment
     "spaced-comment": 0,
     // require regex literals to be wrapped in parentheses

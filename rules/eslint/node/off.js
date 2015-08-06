@@ -5,6 +5,8 @@ module.exports = {
     "node": false
   },
   "rules": {
+    // enforce return after a callback
+    "callback-return": 0,
     // enforces error handling in callbacks (node environment)
     "handle-callback-err": 0,
     // disallow mixing regular variable and require declarations
