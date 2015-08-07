@@ -22,6 +22,8 @@ module.exports = {
     "func-names": 0,
     // enforces use of function declarations or expressions
     "func-style": 0,
+    // this option enforces minimum and maximum identifier lengths (variable names, property names etc.)
+    "id-length": 0,
     // this option sets a specific tab width for your code
     "indent": 0,
     // enforces spacing between keys and values in object literal properties
@@ -78,6 +80,8 @@ module.exports = {
     "quote-props": 0,
     // specify whether double or single quotes should be used
     "quotes": 0,
+    // require identifiers to match the provided regular expression
+    "id-match": 0,
     // enforce spacing before and after semicolons
     "semi-spacing": 0,
     // require or disallow use of semicolons instead of ASI

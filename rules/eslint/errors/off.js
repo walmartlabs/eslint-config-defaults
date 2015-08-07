@@ -46,8 +46,6 @@ module.exports = {
     "no-obj-calls": 0,
     // disallow multiple spaces in a regular expression literal
     "no-regex-spaces": 0,
-    // disallow reserved words being used as object literal keys
-    "no-reserved-keys": 0,
     // disallow sparse arrays
     "no-sparse-arrays": 0,
     // disallow unreachable statements after a return, throw, continue, or break statement
