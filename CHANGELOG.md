@@ -1,4 +1,18 @@
-## 3.0.3 (2015-07-06)
+## 4.0.0 (2015-08-07)
+
+#### User Facing Changes
+
+* Correct node value in airbnb node config
+* Remove environments - they are not generalizable enough to warrant specific config
+* Bring up to date with ESLint 1.0.0+ and eslint-plugin-react 3.1.0+ and airbnb 0.0.7
+
+#### Internal Changes
+
+* Add attributions and a thank you section
+* Small README corrections
+* Add comments in base config to delineate plugins from core
+
+## 3.1.0 (2015-07-06)
 
 #### User Facing Changes
 
