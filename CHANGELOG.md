@@ -1,3 +1,9 @@
+## 4.0.1 (2015-08-07)
+
+#### User Facing Changes
+
+* Correct missing comma in React config
+
 ## 4.0.0 (2015-08-07)
 
 #### User Facing Changes
