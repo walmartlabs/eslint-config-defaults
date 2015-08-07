@@ -14,7 +14,7 @@ module.exports = {
     // Enforce boolean attributes notation in JSX
     "react/jsx-boolean-value": 2,
     // Enforce or disallow spaces inside of curly braces in JSX attributes
-    "react/jsx-curly-spacing": 0
+    "react/jsx-curly-spacing": 0,
     // Prevent duplicate props in JSX
     "react/jsx-no-duplicate-props": 0,
     // Disallow undeclared variables in JSX
