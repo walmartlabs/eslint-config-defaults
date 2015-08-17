@@ -1,6 +1,9 @@
 "use strict";
 
 module.exports = {
+  "plugins": [
+    "filenames"
+  ],  
   "rules": {
     // Enforces getter/setter pairs in objects
     "accessor-pairs": 0,
@@ -110,6 +113,8 @@ module.exports = {
     // require immediate function invocation to be wrapped in parentheses
     "wrap-iife": 0,
     // require or disallow Yoda conditions
-    "yoda": [2, "never"]
+    "yoda": [2, "never"],
+    // dash-cased filenames
+    "filenames": [2, "^[a-z0-9\\-\\.]+$"]
   }
 };

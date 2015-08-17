@@ -22,7 +22,7 @@ $ npm install --save-dev eslint-config-defaults
 
 ## Usage
 
-**This package is made for for ESLint 1.0.0+ and eslint-plugin-react 3.1.0+ and [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb) 0.0.7**
+**This package is made for for ESLint 1.0.0+ and eslint-plugin-react 3.1.0+ and [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb) 0.0.7 and [eslint-plugin-filenames](https://github.com/selaux/eslint-plugin-filenames) 0.1.2**
 
 ### Full Configurations
 
@@ -32,7 +32,7 @@ This package includes the following complete and ready to use configurations:
 - `defaults/configurations/eslint` - The default ESLint config
 - `defaults/configurations/airbnb` - Config from the [AirBnB Style Guide](https://github.com/airbnb/javascript)
 - `defaults/configurations/walmart/es5-browser` - Walmart ES5 + browser
-- `defaults/configurations/walmart/es5-node` - Walmart ES5 + node
+- `defaults/configurations/walmart/es5-node` - Walmart ES5 + node (requires [eslint-plugin-filenames](https://github.com/selaux/eslint-plugin-filenames))
 - `defaults/configurations/walmart/es5-test` - Walmart ES5 + test
 - `defaults/configurations/walmart/es5` - Walmart ES5 config
 - `defaults/configurations/walmart/es6-browser` - Walmart ES6 + browser
