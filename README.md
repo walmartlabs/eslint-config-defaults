@@ -17,12 +17,17 @@
 Install this config package and ESLint:
 
 ```bash
-$ npm install --save-dev eslint-config-defaults
+$ npm install --save-dev eslint eslint-config-defaults
 ```
 
 ## Usage
 
-**This package is made for for ESLint 1.0.0+ and eslint-plugin-react 3.1.0+ and [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb) 0.0.7**
+This package is made for:
+
+- ESLint 1.0.0+
+- [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react) 3.1.0+
+- [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb) 0.0.7
+- [eslint-plugin-filenames](https://www.npmjs.com/package/eslint-plugin-filenames) 0.1.2
 
 ### Full Configurations
 
