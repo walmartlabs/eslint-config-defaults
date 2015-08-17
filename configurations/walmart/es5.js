@@ -9,7 +9,8 @@ module.exports = {
     "../../rules/eslint/node/off.js",
     "../../rules/eslint/strict/walmart.js",
     "../../rules/eslint/style/walmart.js",
-    "../../rules/eslint/variables/walmart.js"
+    "../../rules/eslint/variables/walmart.js",
+    "../../rules/filenames/walmart.js"
   ],
   "env": {},
   "ecmaFeatures": {},
