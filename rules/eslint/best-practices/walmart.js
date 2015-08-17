@@ -1,9 +1,6 @@
 "use strict";
 
 module.exports = {
-  "plugins": [
-    "filenames"
-  ],  
   "rules": {
     // Enforces getter/setter pairs in objects
     "accessor-pairs": 0,
