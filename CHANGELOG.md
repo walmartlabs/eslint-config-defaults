@@ -1,3 +1,9 @@
+## 4.1.0 (2015-08-17)
+
+#### User Facing Changes
+
+* Add filename enforcement plugin to Walmart configs
+
 ## 4.0.2 (2015-08-17)
 
 #### Internal
