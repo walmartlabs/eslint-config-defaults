@@ -22,4 +22,4 @@ module.exports = {
   "ecmaFeatures": {},
   "globals": {},
   "rules": {}
-}
+};
