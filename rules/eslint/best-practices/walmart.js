@@ -113,8 +113,6 @@ module.exports = {
     // require immediate function invocation to be wrapped in parentheses
     "wrap-iife": 0,
     // require or disallow Yoda conditions
-    "yoda": [2, "never"],
-    // dash-cased filenames
-    "filenames": [2, "^[a-z0-9\\-\\.]+$"]
+    "yoda": [2, "never"]
   }
 };
