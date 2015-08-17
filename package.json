@@ -26,7 +26,6 @@
   "private"         : false,
 
   "dependencies": {
-    "lodash": "3.10.0"
   },
 
   "devDependencies" : {
