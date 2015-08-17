@@ -1,9 +1,9 @@
 "use strict";
 
-var _ = require("lodash");
+module.exports = {
+  "extends": "./es6.js",
 
-module.exports = _.merge({},
-  require("./es6.js"), {
-    "env": { "browser": true }
+  "env": { 
+    "browser": true 
   }
-);
+};

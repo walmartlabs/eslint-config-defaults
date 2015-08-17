@@ -1,21 +1,17 @@
 "use strict";
 
-var _ = require("lodash");
-
-// ESLint Core
-var bestPractices = require("../rules/eslint/best-practices/airbnb.js");
-var errors = require("../rules/eslint/errors/airbnb.js");
-var es6 = require("../rules/eslint/es6/airbnb.js");
-var legacy = require("../rules/eslint/legacy/airbnb.js");
-var node = require("../rules/eslint/node/airbnb.js");
-var strict = require("../rules/eslint/strict/airbnb.js");
-var style = require("../rules/eslint/style/airbnb.js");
-var variables = require("../rules/eslint/variables/airbnb.js");
-
-// Plugins
-var react = require("../rules/react/airbnb.js");
-
-var defaults = {
+module.exports = {
+  "extends": [
+    "../rules/eslint/best-practices/airbnb.js",
+    "../rules/eslint/errors/airbnb.js",
+    "../rules/eslint/es6/airbnb.js",
+    "../rules/eslint/legacy/airbnb.js",
+    "../rules/eslint/node/airbnb.js",
+    "../rules/eslint/strict/airbnb.js",
+    "../rules/eslint/style/airbnb.js",
+    "../rules/eslint/variables/airbnb.js",
+    "../rules/react/airbnb.js"
+  ],
   "parser": "babel-eslint",
   "env": {
     "browser": true,
@@ -28,16 +24,3 @@ var defaults = {
   "globals": {},
   "rules": {}
 };
-
-module.exports = _.merge(
-  defaults,
-  bestPractices,
-  errors,
-  es6,
-  legacy,
-  node,
-  strict,
-  style,
-  variables,
-  react
-);

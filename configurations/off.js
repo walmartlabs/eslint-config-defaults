@@ -1,32 +1,18 @@
 "use strict";
 
-var _ = require("lodash");
-
-// ESLint Core
-var bestPractices = require("../rules/eslint/best-practices/off.js");
-var errors = require("../rules/eslint/errors/off.js");
-var es6 = require("../rules/eslint/es6/off.js");
-var legacy = require("../rules/eslint/legacy/off.js");
-var node = require("../rules/eslint/node/off.js");
-var strict = require("../rules/eslint/strict/off.js");
-var style = require("../rules/eslint/style/off.js");
-var variables = require("../rules/eslint/variables/off.js");
-
-var defaults = {
+module.exports = {
+  "extends": [
+    "../rules/eslint/best-practices/off.js",
+    "../rules/eslint/errors/off.js",
+    "../rules/eslint/es6/off.js",
+    "../rules/eslint/legacy/off.js",
+    "../rules/eslint/node/off.js",
+    "../rules/eslint/strict/off.js",
+    "../rules/eslint/style/off.js",
+    "../rules/eslint/variables/off.js"
+  ],
   "env": {},
   "ecmaFeatures": {},
   "globals": {},
   "rules": {}
 };
-
-module.exports = _.merge(
-  defaults,
-  bestPractices,
-  errors,
-  es6,
-  legacy,
-  node,
-  strict,
-  style,
-  variables
-);
