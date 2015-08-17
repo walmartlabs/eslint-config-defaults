@@ -25,10 +25,6 @@
   "repository"      : "git://github.com/walmartlabs/eslint-config-defaults.git",
   "private"         : false,
 
-  "dependencies": {
-    "lodash": "3.10.0"
-  },
-
   "devDependencies" : {
   },
 
