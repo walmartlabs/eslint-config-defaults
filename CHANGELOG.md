@@ -1,3 +1,9 @@
+## 4.0.2 (2015-08-17)
+
+#### Internal
+
+* Remove dependency on lodash in place of ESLint's merge
+
 ## 4.0.1 (2015-08-07)
 
 #### User Facing Changes
