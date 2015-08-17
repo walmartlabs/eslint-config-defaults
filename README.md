@@ -22,7 +22,7 @@ $ npm install --save-dev eslint-config-defaults
 
 ## Usage
 
-**This package is made for for ESLint 0.24.0+**
+**This package is made for for ESLint 1.0.0+ and eslint-plugin-react 3.1.0+ and [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb) 0.0.7**
 
 ### Full Configurations
 
