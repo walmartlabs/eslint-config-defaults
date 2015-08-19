@@ -22,12 +22,6 @@ $ npm install --save-dev eslint eslint-config-defaults
 
 ## Usage
 
-### Dependencies
-
-- AirBnB Config - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react), [babel-eslint](https://github.com/babel/babel-eslint)
-- Any Walmart config (`defaults/configurations/walmart/<suffix>`) - [eslint-plugin-filenames](https://github.com/selaux/eslint-plugin-filenames)
-- Any React config (`<prefix>-react`) - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react), [babel-eslint](https://github.com/babel/babel-eslint)
-
 ### Full Configurations
 
 This package includes the following complete and ready to use configurations:
@@ -46,6 +40,12 @@ This package includes the following complete and ready to use configurations:
 - `defaults/configurations/walmart/es6-react` - Walmart ES6 + react
 - `defaults/configurations/walmart/es6-test` - Walmart ES6 + test
 - `defaults/configurations/walmart/es6` - Walmart ES6 config
+
+##### Dependencies
+
+- AirBnB Config - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react), [babel-eslint](https://github.com/babel/babel-eslint)
+- Any Walmart config (`defaults/configurations/walmart/<suffix>`) - [eslint-plugin-filenames](https://github.com/selaux/eslint-plugin-filenames)
+- Any React config (`<prefix>-react`) - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react), [babel-eslint](https://github.com/babel/babel-eslint)
 
 To consume and extend a config in ESLint just add the extends attribute to your `.eslintrc`. For
 more details about how shareable configs work, see the
