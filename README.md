@@ -41,7 +41,7 @@ This package includes the following complete and ready to use configurations:
 - `defaults/configurations/walmart/es6-test` - Walmart ES6 + test
 - `defaults/configurations/walmart/es6` - Walmart ES6 config
 
-##### Dependencies
+###### Dependencies
 
 - AirBnB Config - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react), [babel-eslint](https://github.com/babel/babel-eslint)
 - Any Walmart config (`defaults/configurations/walmart/<suffix>`) - [eslint-plugin-filenames](https://github.com/selaux/eslint-plugin-filenames)
