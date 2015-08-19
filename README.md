@@ -22,20 +22,15 @@ $ npm install --save-dev eslint eslint-config-defaults
 
 ## Usage
 
-This package is made for:
+### Dependencies
 
-- ESLint 1.0.0+
-- [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react) 3.1.0+
-- [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb) 0.0.7
-- [eslint-plugin-filenames](https://www.npmjs.com/package/eslint-plugin-filenames) 0.1.2
+- **All Walmart config** (`defaults/configurations/walmart/<suffix>`) - [eslint-plugin-filenames](https://github.com/selaux/eslint-plugin-filenames)
+- **AirBnB Config** - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react), [babel-eslint](https://github.com/babel/babel-eslint)
+- **Any React config** (`<prefix>-react`) - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react), [babel-eslint](https://github.com/babel/babel-eslint)
 
 ### Full Configurations
 
 This package includes the following complete and ready to use configurations:
-
-_**Note:**_ Any React config `<prefix>-react` requires [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)
-
-_**Note:**_ Any Walmart config `defaults/configurations/walmart/<suffix>` requires [eslint-plugin-filenames](https://github.com/selaux/eslint-plugin-filenames)
 
 - `defaults` - The default ESLint config
 - `defaults/configurations/airbnb` - Config from the [AirBnB Style Guide](https://github.com/airbnb/javascript)
@@ -86,6 +81,13 @@ ESLint configuration is broken apart in `./rules` containing ESLint's rules and 
 "env":
   "phantom": true
 ```
+
+### This package tracks config in the following versions:
+
+- [ESLint](https://github.com/eslint/eslint) 1.0.0
+- [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react) 3.1.0
+- [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb) 0.0.7
+- [eslint-plugin-filenames](https://www.npmjs.com/package/eslint-plugin-filenames) 0.1.2
 
 ## And A Special Thanks To
 
