@@ -1,3 +1,9 @@
+## 4.2.0 (2015-08-19)
+
+#### User Facing Changes
+
+* Add Google config
+
 ## 4.1.1 (2015-08-19)
 
 #### User Facing Changes
