@@ -97,6 +97,7 @@ ESLint configuration is broken apart in `./rules` containing ESLint's rules and 
 * [Keith Cirkel](https://github.com/keithamus) for painstakingly formatting all of ESLint's rules into JSON in [eslint-config-strict](https://github.com/keithamus/eslint-config-strict)
 * [AirBnB](https://github.com/airbnb/javascript) for sharing all of their config in [JavaScript Style Guide](https://github.com/airbnb/javascript)
 * [Google](https://google.github.io/styleguide/javascriptguide.xml) for sharing their styleguide
+
 ***
 
 ## License
