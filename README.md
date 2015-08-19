@@ -35,6 +35,7 @@ This package includes the following complete and ready to use configurations:
 - `defaults` - The default ESLint config
 - `defaults/configurations/airbnb` - Config from the [AirBnB Style Guide](https://github.com/airbnb/javascript)
 - `defaults/configurations/eslint` - The default ESLint config
+- `defaults/configurations/google` - The [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
 - `defaults/configurations/off` - Turns off all rules. This will be ESLint's default after 1.0.0
 - `defaults/configurations/walmart/es5-browser` - Walmart ES5 + browser
 - `defaults/configurations/walmart/es5-node` - Walmart ES5 + node
@@ -87,6 +88,7 @@ ESLint configuration is broken apart in `./rules` containing ESLint's rules and 
 - [ESLint](https://github.com/eslint/eslint) 1.0.0
 - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react) 3.1.0
 - [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb) 0.0.7
+- [Google JavaScript Style Guide](https://github.com/google/styleguide/tree/43d738ab8bb0c797f78506945729946aacbab17d) 43d738ab8b
 - [eslint-plugin-filenames](https://www.npmjs.com/package/eslint-plugin-filenames) 0.1.2
 
 ## And A Special Thanks To
