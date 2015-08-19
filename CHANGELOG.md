@@ -1,3 +1,9 @@
+## 4.1.1 (2015-08-19)
+
+#### User Facing Changes
+
+* Add missing documentation about babel-eslint dependency
+
 ## 4.1.0 (2015-08-17)
 
 #### User Facing Changes
