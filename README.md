@@ -34,9 +34,9 @@ This package includes the following complete and ready to use configurations:
 
 - `defaults` - The default ESLint config
 - `defaults/configurations/airbnb` - Config from the [AirBnB Style Guide](https://github.com/airbnb/javascript)
-- `defaults/configurations/eslint` - The default ESLint config
 - `defaults/configurations/google` - The [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
-- `defaults/configurations/off` - Turns off all rules. This will be ESLint's default after 1.0.0
+- `defaults/configurations/eslint` - The default ESLint config
+- `defaults/configurations/off` - Disable all rules (ESLint's default at 1.0.0+)
 - `defaults/configurations/walmart/es5-browser` - Walmart ES5 + browser
 - `defaults/configurations/walmart/es5-node` - Walmart ES5 + node
 - `defaults/configurations/walmart/es5-test` - Walmart ES5 + test
@@ -96,7 +96,7 @@ ESLint configuration is broken apart in `./rules` containing ESLint's rules and 
 * [Nicholas C. Zakas](https://github.com/nzakas) for all the amazing work on [ESLint](https://github.com/eslint/eslint)
 * [Keith Cirkel](https://github.com/keithamus) for painstakingly formatting all of ESLint's rules into JSON in [eslint-config-strict](https://github.com/keithamus/eslint-config-strict)
 * [AirBnB](https://github.com/airbnb/javascript) for sharing all of their config in [JavaScript Style Guide](https://github.com/airbnb/javascript)
-
+* [Google](https://google.github.io/styleguide/javascriptguide.xml) for sharing their styleguide
 ***
 
 ## License
