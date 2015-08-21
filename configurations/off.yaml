@@ -1,0 +1,10 @@
+---
+"extends":
+  - "../rules/eslint/best-practices/off.yaml"
+  - "../rules/eslint/errors/off.yaml"
+  - "../rules/eslint/es6/off.yaml"
+  - "../rules/eslint/legacy/off.yaml"
+  - "../rules/eslint/node/off.yaml"
+  - "../rules/eslint/strict/off.yaml"
+  - "../rules/eslint/style/off.yaml"
+  - "../rules/eslint/variables/off.yaml"

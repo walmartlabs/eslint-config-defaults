@@ -1,0 +1,10 @@
+---
+"extends":
+  - "../rules/eslint/best-practices/google.yaml"
+  - "../rules/eslint/errors/google.yaml"
+  - "../rules/eslint/es6/google.yaml"
+  - "../rules/eslint/legacy/google.yaml"
+  - "../rules/eslint/node/google.yaml"
+  - "../rules/eslint/strict/google.yaml"
+  - "../rules/eslint/style/google.yaml"
+  - "../rules/eslint/variables/google.yaml"

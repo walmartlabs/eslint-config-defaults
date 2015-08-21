@@ -29,9 +29,14 @@
   },
 
   "devDependencies" : {
+    "eslint": "1.2.1"
   },
 
   "main": "./configurations/eslint.js",
+
+  "scripts": {
+    "lint": "eslint ."
+  },
 
   "engines":{
     "node": ">= 0.10.0"

@@ -1,0 +1,9 @@
+---
+"extends":
+  - "./es5.yaml"
+
+"env":
+  "mocha": true
+
+"rules":
+  "max-nested-callbacks": 0

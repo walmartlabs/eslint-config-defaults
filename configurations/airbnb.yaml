@@ -1,0 +1,20 @@
+---
+"extends":
+  - "../rules/eslint/best-practices/airbnb.yaml"
+  - "../rules/eslint/errors/airbnb.yaml"
+  - "../rules/eslint/es6/airbnb.yaml"
+  - "../rules/eslint/legacy/airbnb.yaml"
+  - "../rules/eslint/node/airbnb.yaml"
+  - "../rules/eslint/strict/airbnb.yaml"
+  - "../rules/eslint/style/airbnb.yaml"
+  - "../rules/eslint/variables/airbnb.yaml"
+  - "../rules/react/airbnb.yaml"
+
+"parser": "babel-eslint"
+
+"env":
+  "browser": true
+  "node": true
+  "amd": false
+  "mocha": false
+  "jasmine": false
