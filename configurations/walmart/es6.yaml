@@ -1,0 +1,9 @@
+---
+"extends":
+  - "./es5.yaml"
+  - "../../rules/eslint/es6/walmart.yaml"
+
+"rules":
+  "strict":
+    - 2
+    - "global"

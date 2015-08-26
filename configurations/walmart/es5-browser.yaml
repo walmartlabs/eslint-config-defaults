@@ -1,0 +1,6 @@
+---
+"extends":
+  - "./es5.yaml"
+
+"env":
+  "browser": true
