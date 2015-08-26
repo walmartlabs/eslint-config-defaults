@@ -5,22 +5,15 @@
   # treat var statements as if they were block scoped
   "block-scoped-var": 0
   # specify the maximum cyclomatic complexity allowed in a program
-  "complexity":
-    - 0
-    - 11
+  "complexity": [0, 11]
   # require return statements to either always or never specify values
   "consistent-return": 0
   # specify curly brace conventions for all control statements
-  "curly":
-    - 0
-    - "all"
+  "curly": [0, "all"]
   # require default case in switch statements
   "default-case": 0
   # encourages use of dot notation whenever possible
-  "dot-notation":
-    - 0
-    -
-      "allowKeywords": true
+  "dot-notation": [0, {"allowKeywords": true}]
   # enforces consistent newlines before or after dots
   "dot-location": 0
   # require the use of === and !==
@@ -105,14 +98,7 @@
   # disallow use of void operator
   "no-void": 0
   # disallow usage of configurable warning terms in comments: e.g. todo
-  "no-warning-comments":
-    - 0
-    -
-      "terms":
-        - "todo"
-        - "fixme"
-        - "xxx"
-      "location": "start"
+  "no-warning-comments": [0, {"terms": ["todo", "fixme", "xxx"], "location": "start"}]
   # disallow use of the with statement
   "no-with": 0
   # require use of the second argument for parseInt()
@@ -122,6 +108,4 @@
   # require immediate function invocation to be wrapped in parentheses
   "wrap-iife": 0
   # require or disallow Yoda conditions
-  "yoda":
-    - 0
-    - "never"
+  "yoda": [0, "never"]

@@ -9,17 +9,13 @@
   # require return statements to either always or never specify values
   "consistent-return": 0
   # specify curly brace conventions for all control statements
-  "curly":
-    - 2
-    - "all"
+  "curly": [2, "all"]
   # require default case in switch statements
   "default-case": 2
   # encourages use of dot notation whenever possible
   "dot-notation": 0
   # enforces consistent newlines before or after dots
-  "dot-location":
-    - 2
-    - "object"
+  "dot-location": [2, "object"]
   # require the use of === and !==
   "eqeqeq": 0
   # make sure for-in loops have an if statement

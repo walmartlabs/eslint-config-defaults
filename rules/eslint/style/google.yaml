@@ -3,11 +3,7 @@
   # enforce spacing inside array brackets
   "array-bracket-spacing": 0
   # enforce one true brace style
-  "brace-style":
-    - 2
-    - "1tbs"
-    -
-      "allowSingleLine": true
+  "brace-style": [2, "1tbs", {"allowSingleLine": true}]
   # require camel case names
   "camelcase": 2
   # enforce spacing before and after comma
@@ -27,15 +23,9 @@
   # this option enforces minimum and maximum identifier lengths (variable names, property names etc.)
   "id-length": 0
   # this option sets a specific tab width for your code
-  "indent":
-    - 2
-    - 2
+  "indent": [2, 2]
   # enforces spacing between keys and values in object literal properties
-  "key-spacing":
-    - 2
-    -
-      "beforeColon": false
-      "afterColon": true
+  "key-spacing": [2, {"beforeColon": false, "afterColon": true}]
   # enforces empty lines around comments
   "lines-around-comment": 0
   # disallow mixed "LF" and "CRLF" as linebreaks
@@ -75,25 +65,19 @@
   # disallow the use of Boolean literals in conditional expressions
   "no-unneeded-ternary": 0
   # require or disallow padding inside curly braces
-  "object-curly-spacing":
-    - 2
-    - "never"
+  "object-curly-spacing": [2, "never"]
   # allow just one var statement per function
   "one-var": 0
   # require assignment operator shorthand where possible or prohibit it entirely
   "operator-assignment": 0
   # enforce operators to be placed before or after line breaks
-  "operator-linebreak":
-    - 2
-    - "after"
+  "operator-linebreak": [2, "after"]
   # enforce padding within blocks
   "padded-blocks": 0
   # require quotes around object literal property names
   "quote-props": 0
   # specify whether double or single quotes should be used
-  "quotes":
-    - 2
-    - "single"
+  "quotes": [2, "single"]
   # require identifiers to match the provided regular expression
   "id-match": 0
   # enforce spacing before and after semicolons
@@ -105,17 +89,11 @@
   # require a space after certain keywords
   "space-after-keywords": 0
   # require or disallow space before blocks
-  "space-before-blocks":
-    - 2
-    - "always"
+  "space-before-blocks": [2, "always"]
   # require or disallow space before function opening parenthesis
-  "space-before-function-paren":
-    - 2
-    - "never"
+  "space-before-function-paren": [2, "never"]
   # require or disallow spaces inside parentheses
-  "space-in-parens":
-    - 2
-    - "never"
+  "space-in-parens": [2, "never"]
   # require spaces around operators
   "space-infix-ops": 2
   # require a space after return, throw, and case

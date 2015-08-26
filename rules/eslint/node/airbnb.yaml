@@ -8,9 +8,7 @@
   # enforces error handling in callbacks (node environment)
   "handle-callback-err": 0
   # disallow mixing regular variable and require declarations
-  "no-mixed-requires":
-    - 0
-    - false
+  "no-mixed-requires": [0, false]
   # disallow use of new operator with the require function
   "no-new-require": 0
   # disallow string concatenation with __dirname and __filename
