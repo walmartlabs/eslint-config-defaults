@@ -26,10 +26,10 @@ $ npm install --save-dev eslint eslint-config-defaults
 
 This package includes the following complete and ready to use configurations:
 
-- `defaults` - The default ESLint config
+- `defaults` - The [default](https://github.com/eslint/eslint/blob/master/conf/eslint.json) ESLint config
 - `defaults/configurations/airbnb` - Config from the [AirBnB Style Guide](https://github.com/airbnb/javascript)
 - `defaults/configurations/google` - The [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
-- `defaults/configurations/eslint` - The default ESLint config
+- `defaults/configurations/eslint` - The [default](https://github.com/eslint/eslint/blob/master/conf/eslint.json) ESLint config
 - `defaults/configurations/off` - Disable all rules (ESLint's default at 1.0.0+)
 - `defaults/configurations/walmart/es5-browser` - Walmart ES5 + browser
 - `defaults/configurations/walmart/es5-node` - Walmart ES5 + node
