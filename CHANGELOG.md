@@ -1,3 +1,9 @@
+## 5.0.0 (2015-08-27)
+
+#### Internal Changes
+
+* Convert all js/json to YAML
+
 ## 4.2.0 (2015-08-19)
 
 #### User Facing Changes
