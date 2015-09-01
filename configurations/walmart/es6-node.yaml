@@ -1,4 +1,0 @@
----
-"extends":
-  - "./es6.yaml"
-  - "../../rules/eslint/node/walmart.yaml"
