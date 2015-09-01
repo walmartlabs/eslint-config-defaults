@@ -1,3 +1,9 @@
+## 6.0.0 (2015-09-01)
+
+#### Internal Changes
+
+* Revert 5.0.0 due to a limitation in ESLint
+
 ## 5.0.0 (2015-08-27)
 
 #### Internal Changes
