@@ -2,15 +2,15 @@
 
 module.exports = {
   "extends": [
-    "../rules/eslint/best-practices/airbnb.js",
-    "../rules/eslint/errors/airbnb.js",
-    "../rules/eslint/es6/airbnb.js",
-    "../rules/eslint/legacy/airbnb.js",
-    "../rules/eslint/node/airbnb.js",
-    "../rules/eslint/strict/airbnb.js",
-    "../rules/eslint/style/airbnb.js",
-    "../rules/eslint/variables/airbnb.js",
-    "../rules/react/airbnb.js"
+    "defaults/rules/eslint/best-practices/airbnb",
+    "defaults/rules/eslint/errors/airbnb",
+    "defaults/rules/eslint/es6/airbnb",
+    "defaults/rules/eslint/legacy/airbnb",
+    "defaults/rules/eslint/node/airbnb",
+    "defaults/rules/eslint/strict/airbnb",
+    "defaults/rules/eslint/style/airbnb",
+    "defaults/rules/eslint/variables/airbnb",
+    "defaults/rules/react/airbnb"
   ],
   "parser": "babel-eslint",
   "env": {

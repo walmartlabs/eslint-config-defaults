@@ -1,9 +1,9 @@
 "use strict";
 
 module.exports = {
-  "extends": "./es5.js",
+  "extends": "defaults/configurations/walmart/es5",
   "env": {
     "browser": true
   }
 };
-        
+

@@ -1,11 +1,11 @@
 "use strict";
 
 module.exports = {
-  "extends": "./es6.js", 
-  "env": { 
-    "mocha": true 
+  "extends": "defaults/configurations/walmart/es6",
+  "env": {
+    "mocha": true
   },
-  "rules": { 
-    "max-nested-callbacks": 0 
-  } 
+  "rules": {
+    "max-nested-callbacks": 0
+  }
 };
