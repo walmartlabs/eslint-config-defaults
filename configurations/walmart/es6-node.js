@@ -2,7 +2,7 @@
 
 module.exports = {
   "extends": [
-    "./es6.js",
-    "../../rules/eslint/node/walmart.js"
+    "defaults/configurations/walmart/es6",
+    "defaults/rules/eslint/node/walmart"
   ]
 };

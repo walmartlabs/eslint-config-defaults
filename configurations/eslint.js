@@ -1,15 +1,13 @@
-"use strict";
-
 module.exports = {
   "extends": [
-    "../rules/eslint/best-practices/eslint.js",
-    "../rules/eslint/errors/eslint.js",
-    "../rules/eslint/es6/eslint.js",
-    "../rules/eslint/legacy/eslint.js",
-    "../rules/eslint/node/eslint.js",
-    "../rules/eslint/strict/eslint.js",
-    "../rules/eslint/style/eslint.js",
-    "../rules/eslint/variables/eslint.js"
+    "defaults/rules/eslint/best-practices/eslint",
+    "defaults/rules/eslint/errors/eslint",
+    "defaults/rules/eslint/es6/eslint",
+    "defaults/rules/eslint/legacy/eslint",
+    "defaults/rules/eslint/node/eslint",
+    "defaults/rules/eslint/strict/eslint",
+    "defaults/rules/eslint/style/eslint",
+    "defaults/rules/eslint/variables/eslint"
   ],
   "parser": "espree",
   "env": {

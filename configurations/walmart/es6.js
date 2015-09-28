@@ -2,8 +2,8 @@
 
 module.exports = {
   "extends": [
-    "./es5.js",
-    "../../rules/eslint/es6/walmart.js"
+    "defaults/configurations/walmart/es5",
+    "defaults/rules/eslint/es6/walmart"
   ],
   "rules": {
     "strict": [2, "global"]

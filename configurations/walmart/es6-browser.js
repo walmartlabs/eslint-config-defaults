@@ -1,9 +1,9 @@
 "use strict";
 
 module.exports = {
-  "extends": "./es6.js",
+  "extends": "defaults/configurations/walmart/es6",
 
-  "env": { 
-    "browser": true 
+  "env": {
+    "browser": true
   }
 };

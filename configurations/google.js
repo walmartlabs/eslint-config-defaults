@@ -2,14 +2,14 @@
 
 module.exports = {
   "extends": [
-    "../rules/eslint/best-practices/google.js",
-    "../rules/eslint/errors/google.js",
-    "../rules/eslint/es6/google.js",
-    "../rules/eslint/legacy/google.js",
-    "../rules/eslint/node/google.js",
-    "../rules/eslint/strict/google.js",
-    "../rules/eslint/style/google.js",
-    "../rules/eslint/variables/google.js",
+    "defaults/rules/eslint/best-practices/google",
+    "defaults/rules/eslint/errors/google",
+    "defaults/rules/eslint/es6/google",
+    "defaults/rules/eslint/legacy/google",
+    "defaults/rules/eslint/node/google",
+    "defaults/rules/eslint/strict/google",
+    "defaults/rules/eslint/style/google",
+    "defaults/rules/eslint/variables/google",
   ],
   "env": {},
   "ecmaFeatures": {},
