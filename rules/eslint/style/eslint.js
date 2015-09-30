@@ -4,6 +4,8 @@ module.exports = {
   "rules": {
     // enforce spacing inside array brackets
     "array-bracket-spacing": [0, "never"],
+    // disallow or enforce spaces inside of single line blocks
+    "block-spacing": 0,
     // enforce one true brace style
     "brace-style": [0, "1tbs"],
     // require camel case names
@@ -26,6 +28,8 @@ module.exports = {
     "id-length": 0,
     // this option sets a specific tab width for your code
     "indent": 0,
+    // specify whether double or single quotes should be used in JSX attributes
+    "jsx-quotes": 0,
     // enforces spacing between keys and values in object literal properties
     "key-spacing": [0, { "beforeColon": false, "afterColon": true }],
     // enforces empty lines around comments
@@ -56,6 +60,8 @@ module.exports = {
     "no-nested-ternary": 0,
     // disallow use of the Object constructor
     "no-new-object": 0,
+    // disallow use of certain syntax in code
+    "no-restricted-syntax": 0,
     // disallow space between function identifier and application
     "no-spaced-func": 0,
     // disallow the use of ternary operators
@@ -90,6 +96,8 @@ module.exports = {
     "sort-vars": 0,
     // require a space after certain keywords
     "space-after-keywords": [0, "always"],
+    // require a space before certain keywords
+    "space-before-keywords": 0,
     // require or disallow space before blocks
     "space-before-blocks": [0, "always"],
     // require or disallow space before function opening parenthesis
