@@ -86,7 +86,7 @@ ESLint configuration is broken apart in `./rules` containing ESLint's rules and 
 ### This package tracks config in the following versions:
 
 - [ESLint](https://github.com/eslint/eslint) 1.0.0
-- [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react) 3.1.0
+- [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react) 3.5.0
 - [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb) 0.0.7
 - [Google JavaScript Style Guide](https://github.com/google/styleguide/tree/43d738ab8bb0c797f78506945729946aacbab17d) 43d738ab8b
 - [eslint-plugin-filenames](https://www.npmjs.com/package/eslint-plugin-filenames) 0.1.2
