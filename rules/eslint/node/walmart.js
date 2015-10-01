@@ -8,7 +8,7 @@ module.exports = {
     // enforce return after a callback
     "callback-return": 2,
     // disallow require() outside of the top-level module scope
-    "global-require": 0,
+    "global-require": 1,
     // enforces error handling in callbacks (node environment)
     "handle-callback-err": 0,
     // disallow mixing regular variable and require declarations
