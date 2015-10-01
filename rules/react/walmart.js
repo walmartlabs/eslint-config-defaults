@@ -16,11 +16,11 @@ module.exports = {
     // Enforce boolean attributes notation in JSX
     "react/jsx-boolean-value": 2,
     // Validate closing bracket location in JSX
-    "react/jsx-closing-bracket-location": 0,
+    "react/jsx-closing-bracket-location": [2, 'tag-aligned'],
     // Enforce or disallow spaces inside of curly braces in JSX attributes
     "react/jsx-curly-spacing": 0,
     // Validate props indentation in JSX
-    "react/jsx-indent-props": 0,
+    "react/jsx-indent-props": [2, 2],
     // Limit maximum of props on a single line in JSX
     "react/jsx-max-props-per-line": 0,
     // Prevent duplicate props in JSX
@@ -46,7 +46,7 @@ module.exports = {
     // Prevent usage of setState in componentDidUpdate
     "react/no-did-update-set-state": 2,
     // Prevent direct mutation of this.state
-    "react/no-direct-mutation-state": 0,
+    "react/no-direct-mutation-state": 2,
     // Prevent multiple component definition per file
     "react/no-multi-comp": 0,
     // Prevent usage of setState
