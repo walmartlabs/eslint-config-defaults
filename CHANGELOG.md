@@ -1,3 +1,13 @@
+## 7.0.0 (2015-10-01)
+
+#### User Facing Changes
+
+* Remove deprecated react/jsx-quotes in favor of jsx-quotes
+* Update eslint 1.0.0 -> 1.5.1
+* Update eslint-react 3.1.0 -> 3.5.0
+* Adds use strict back to best-practices
+* Fixes defaults extensibility in configuration files
+
 ## 6.0.0 (2015-09-01)
 
 #### Internal Changes
