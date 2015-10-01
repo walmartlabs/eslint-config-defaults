@@ -28,8 +28,6 @@ module.exports = {
     "react/jsx-no-literals": 0,
     // Disallow undeclared variables in JSX
     "react/jsx-no-undef": 0,
-    // Enforce quote style for JSX attributes
-    "react/jsx-quotes": 0,
     // Enforce propTypes declarations alphabetical sorting
     "react/jsx-sort-prop-types": 0,
     // Enforce props alphabetical sorting
