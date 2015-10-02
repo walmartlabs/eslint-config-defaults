@@ -1,3 +1,9 @@
+## 7.0.1 (2015-10-02)
+
+#### User Facing Changes
+
+* Correct typo in walmart and airbnb config
+
 ## 7.0.0 (2015-10-01)
 
 #### User Facing Changes
