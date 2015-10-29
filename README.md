@@ -37,6 +37,7 @@ This package includes the following complete and ready to use configurations:
 - `defaults/configurations/walmart/es5` - Walmart ES5 config
 - `defaults/configurations/walmart/es6-browser` - Walmart ES6 + browser
 - `defaults/configurations/walmart/es6-node` - Walmart ES6 + node
+- `defaults/configurations/walmart/es6-react-test` - Walmart ES6 + react + test
 - `defaults/configurations/walmart/es6-react` - Walmart ES6 + react
 - `defaults/configurations/walmart/es6-test` - Walmart ES6 + test
 - `defaults/configurations/walmart/es6` - Walmart ES6 config
