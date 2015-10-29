@@ -1,3 +1,10 @@
+## 7.1.0 (2015-10-28)
+
+#### User Facing Changes
+
+* Add walmart/es6-react-test.js
+* Update docs for clarity
+
 ## 7.0.1 (2015-10-02)
 
 #### User Facing Changes
