@@ -1,3 +1,9 @@
+## 7.1.1 (2015-10-28)
+
+#### User Facing Changes
+
+* Update docs to include new walmart config
+
 ## 7.1.0 (2015-10-28)
 
 #### User Facing Changes
