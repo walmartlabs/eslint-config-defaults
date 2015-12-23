@@ -79,7 +79,6 @@ ESLint configuration is broken apart in `./rules` containing ESLint's rules and 
   - "defaults/rules/eslint/errors/airbnb"
 
   - "defaults/rules/eslint/es6/off"
-  - "defaults/rules/eslint/legacy/off"
   - "defaults/rules/eslint/node/off"
 
 "env":

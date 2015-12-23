@@ -39,15 +39,15 @@ module.exports = {
     // enforces empty lines around comments
     "lines-around-comment": 0,
     // specify the maximum depth that blocks can be nested
-    "max-depth": 0,
+    "max-depth": [0, 4],
     // specify the maximum length of a line in your program
-    "max-len": 0,
+    "max-len": [0, 80, 4],
     // specify the maximum depth callbacks can be nested
     "max-nested-callbacks": 0,
     // limits the number of parameters that can be used in the function declaration.
-    "max-params": 0,
+    "max-params": [0, 3],
     // specify the maximum number of statement allowed in a function
-    "max-statements": 0,
+    "max-statements": [0, 10],
     // require a capital letter for constructors
     "new-cap": [2, {"newIsCap": true}],
     // disallow the omission of parentheses when invoking a constructor with no arguments
