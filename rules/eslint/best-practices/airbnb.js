@@ -37,7 +37,7 @@ module.exports = {
     // disallow use of empty destructuring patterns
     "no-empty-pattern": 0,
     // disallow comparisons to null without a type-checking operator
-    "no-eq-null": 2,
+    "no-eq-null": 0,
     // disallow use of eval()
     "no-eval": 2,
     // disallow adding to native types
@@ -82,7 +82,7 @@ module.exports = {
     // disallow use of (old style) octal literals
     "no-octal": 2,
     // disallow reassignment of function parameters
-    "no-param-reassign": 2,
+    "no-param-reassign": [2, { "props": true }],
     // disallow use of process.env
     "no-process-env": 0,
     // disallow usage of __proto__ property
