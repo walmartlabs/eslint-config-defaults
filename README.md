@@ -86,6 +86,10 @@ ESLint configuration is broken apart in `./rules` containing ESLint's rules and 
   "phantom": true
 ```
 
+## Limitations
+
+Due to an issue with ESLint, config extension cannot be called from a globally installed (`npm install -g eslint`) eslint. It can however be run properly using eslint installed directly to your package's `node_modules`. This can be done by either calling it directly (`./node_modules/.bin/eslint .`) or from within an npm script since they automatically check local `node_modules` first. This will be tracked in issue #43.
+
 ### This package tracks config in the following versions:
 
 - [ESLint](https://github.com/eslint/eslint) 1.5.1
