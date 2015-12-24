@@ -4,7 +4,6 @@ module.exports = {
   "extends": [
     "defaults/rules/eslint/best-practices/airbnb",
     "defaults/rules/eslint/errors/airbnb",
-    "defaults/rules/eslint/es6/airbnb",
     "defaults/rules/eslint/node/airbnb",
     "defaults/rules/eslint/strict/airbnb",
     "defaults/rules/eslint/style/airbnb",

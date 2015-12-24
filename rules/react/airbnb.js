@@ -14,25 +14,25 @@ module.exports = {
     // Forbid certain propTypes
     "react/forbid-prop-types": 0,
     // Enforce boolean attributes notation in JSX
-    "react/jsx-boolean-value": 2,
+    "react/jsx-boolean-value": [2, "never"],
     // Validate closing bracket location in JSX
-    "react/jsx-closing-bracket-location": 0,
+    "react/jsx-closing-bracket-location": [2, "line-aligned"],
     // Enforce or disallow spaces inside of curly braces in JSX attributes
     "react/jsx-curly-spacing": 0,
     // Enforce event handler naming conventions in JSX
     "react/jsx-handler-names": 0,
     // Validate props indentation in JSX
-    "react/jsx-indent-props": 0,
+    "react/jsx-indent-props": [2, 2],
     // Validate JSX has key prop when in array or iterator
     "react/jsx-key": 0,
     // Limit maximum of props on a single line in JSX
     "react/jsx-max-props-per-line": 0,
     // Prevent usage of .bind() and arrow functions in JSX props
-    "react/jsx-no-bind": 0,
+    "react/jsx-no-bind": 2,
     // Prevent duplicate props in JSX
     "react/jsx-no-duplicate-props": 0,
     // Prevent usage of isMounted
-    "react/jsx-no-is-mounted": 0,
+    "react/jsx-no-is-mounted": 2,
     // Prevent usage of unwrapped JSX strings
     "react/jsx-no-literals": 0,
     // Disallow undeclared variables in JSX
@@ -56,7 +56,7 @@ module.exports = {
     // Prevent usage of setState in componentDidMount
     "react/no-did-mount-set-state": [2, "allow-in-func"],
     // Prevent usage of setState in componentDidUpdate
-    "react/no-did-update-set-state": 2,
+    "react/no-did-update-set-state": [2, "allow-in-func"],
     // Prevent direct mutation of this.state
     "react/no-direct-mutation-state": 0,
     // Prevent multiple component definition per file
@@ -66,9 +66,9 @@ module.exports = {
     // Prevent using string references in ref attribute.
     "react/no-string-refs": 0,
     // Prevent usage of unknown DOM property
-    "react/no-unknown-property": 2,
+    "react/no-unknown-property": 0,
     // Enforce ES5 or ES6 class for React Components
-    "react/prefer-es6-class": 0,
+    "react/prefer-es6-class": [2, "always"],
     // Prevent missing props validation in a React component definition
     "react/prop-types": 2,
     // Prevent missing React when using JSX
@@ -80,31 +80,19 @@ module.exports = {
     // Enforce component methods order
     "react/sort-comp": [2, {
       "order": [
-        "displayName",
-        "propTypes",
-        "contextTypes",
-        "childContextTypes",
-        "mixins",
-        "statics",
-        "defaultProps",
-        "constructor",
-        "getDefaultProps",
-        "getInitialState",
-        "getChildContext",
-        "componentWillMount",
-        "componentDidMount",
-        "componentWillReceiveProps",
-        "shouldComponentUpdate",
-        "componentWillUpdate",
-        "componentDidUpdate",
-        "componentWillUnmount",
+        "lifecycle",
         "/^on.+$/",
-        "/^get.+$/",
+        "/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/",
+        "everything-else",
         "/^render.+$/",
         "render"
       ]
     }],
     // Prevent missing parentheses around multilines JSX
-    "react/wrap-multilines": 2
+    "react/wrap-multilines": [2, {
+      declaration: true,
+      assignment: true,
+      return: true
+    }]
   }
 };
