@@ -5,7 +5,6 @@ module.exports = {
     "defaults/rules/eslint/best-practices/walmart",
     "defaults/rules/eslint/errors/walmart",
     "defaults/rules/eslint/es6/off",
-    "defaults/rules/eslint/legacy/walmart",
     "defaults/rules/eslint/node/off",
     "defaults/rules/eslint/strict/walmart",
     "defaults/rules/eslint/style/walmart",
