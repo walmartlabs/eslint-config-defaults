@@ -16,15 +16,15 @@ module.exports = {
     // Enforce boolean attributes notation in JSX
     "react/jsx-boolean-value": 2,
     // Validate closing bracket location in JSX
-    "react/jsx-closing-bracket-location": [2, 'tag-aligned'],
+    "react/jsx-closing-bracket-location": [2, "tag-aligned"],
     // Enforce or disallow spaces inside of curly braces in JSX attributes
     "react/jsx-curly-spacing": 0,
     // Enforce event handler naming conventions in JSX
-    "react/jsx-handler-names": 0,
+    "react/jsx-handler-names": 1,
     // Validate props indentation in JSX
     "react/jsx-indent-props": [2, 2],
     // Validate JSX has key prop when in array or iterator
-    "react/jsx-key": 0,
+    "react/jsx-key": 2,
     // Limit maximum of props on a single line in JSX
     "react/jsx-max-props-per-line": 0,
     // Prevent usage of .bind() and arrow functions in JSX props
@@ -32,13 +32,13 @@ module.exports = {
     // Prevent duplicate props in JSX
     "react/jsx-no-duplicate-props": 0,
     // Prevent usage of isMounted
-    "react/jsx-no-is-mounted": 0,
+    "react/jsx-no-is-mounted": 2,
     // Prevent usage of unwrapped JSX strings
     "react/jsx-no-literals": 0,
     // Disallow undeclared variables in JSX
     "react/jsx-no-undef": 2,
     // Enforce PascalCase for user-defined JSX components
-    "react/jsx-pascal-case": 0,
+    "react/jsx-pascal-case": 2,
     // Enforce quote style for JSX attributes
     "react/jsx-quotes": 0,
     // Enforce propTypes declarations alphabetical sorting
@@ -52,7 +52,7 @@ module.exports = {
     // Prevent usage of dangerous JSX properties
     "react/no-danger": 0,
     // Prevent usage of deprecated methods
-    "react/no-deprecated": 0,
+    "react/no-deprecated": 2,
     // Prevent usage of setState in componentDidMount
     "react/no-did-mount-set-state": 2,
     // Prevent usage of setState in componentDidUpdate
@@ -68,7 +68,7 @@ module.exports = {
     // Prevent usage of unknown DOM property
     "react/no-unknown-property": 2,
     // Enforce ES5 or ES6 class for React Components
-    "react/prefer-es6-class": 0,
+    "react/prefer-es6-class": 2,
     // Prevent missing props validation in a React component definition
     "react/prop-types": 2,
     // Prevent missing React when using JSX
