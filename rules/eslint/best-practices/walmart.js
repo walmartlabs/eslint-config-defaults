@@ -27,7 +27,7 @@ module.exports = {
     // disallow use of arguments.caller or arguments.callee
     "no-caller": 2,
     // disallow lexical declarations in case clauses
-    "no-case-declarations": 0,
+    "no-case-declarations": 2,
     // disallow division operators explicitly at beginning of regular expression
     "no-div-regex": 0,
     // disallow else after a return in an if
@@ -35,7 +35,7 @@ module.exports = {
     // disallow use of labels for anything other then loops and switches
     "no-empty-label": 2,
     // disallow use of empty destructuring patterns
-    "no-empty-pattern": 0,
+    "no-empty-pattern": 2,
     // disallow comparisons to null without a type-checking operator
     "no-eq-null": 0,
     // disallow use of eval()
@@ -63,7 +63,7 @@ module.exports = {
     // disallow creation of functions within loops
     "no-loop-func": 2,
     // disallow the use of magic numbers
-    "no-magic-numbers": 0,
+    "no-magic-numbers": 2,
     // disallow use of multiple spaces
     "no-multi-spaces": 2,
     // disallow use of multiline strings
