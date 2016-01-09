@@ -1,3 +1,9 @@
+## 8.0.1 (2016-01-08)
+
+#### User Facing Changes
+
+* Correct but where react/no-is-mounted was called react/jsx-no-is-mounted
+
 ## 8.0.0 (2016-01-08)
 
 #### User Facing Changes

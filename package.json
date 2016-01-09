@@ -14,7 +14,7 @@
     "style linter"
   ],
 
-  "version"         : "8.0.0",
+  "version"         : "8.0.1",
   "author"          : "Eric Baer <me@ericbaer.com>",
 
   "homepage"        : "https://github.com/walmartlabs/eslint-config-defaults",
