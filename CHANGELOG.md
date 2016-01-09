@@ -1,3 +1,12 @@
+## 8.0.0 (2016-01-08)
+
+#### User Facing Changes
+
+* Turn on new rules from eslint and eslint-plugin react in Walmart configurations
+* Update airbnb config to 2.1.1
+* Update all rules for the ESLint 1.10.3
+* Update all rules for eslint-plugin-react 3.12.0
+
 ## 7.1.1 (2015-10-28)
 
 #### User Facing Changes
