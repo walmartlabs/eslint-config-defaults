@@ -32,7 +32,7 @@ module.exports = {
     // Prevent duplicate props in JSX
     "react/jsx-no-duplicate-props": 0,
     // Prevent usage of isMounted
-    "react/jsx-no-is-mounted": 2,
+    "react/no-is-mounted": 2,
     // Prevent usage of unwrapped JSX strings
     "react/jsx-no-literals": 0,
     // Disallow undeclared variables in JSX
