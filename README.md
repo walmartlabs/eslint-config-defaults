@@ -29,6 +29,7 @@ This package includes the following complete and ready to use configurations:
 - `defaults` - The config [recommended](https://github.com/eslint/eslint/blob/master/conf/eslint.json) by ESLint
 - `defaults/configurations/eslint` - The config [recommended](https://github.com/eslint/eslint/blob/master/conf/eslint.json) by ESLint
 - `defaults/configurations/google` - The [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
+- `defaults/configurations/gulp` - The [Gulp ESLint config](https://github.com/gulpjs/eslint-config-gulp)
 - `defaults/configurations/off` - Disable all rules (ESLint's default at 1.0.0+)
 - `defaults/configurations/airbnb/es5` - Config from the [AirBnB Style Guide](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
 - `defaults/configurations/airbnb/es6-react` - Config from the [AirBnB Style Guide](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
@@ -95,6 +96,7 @@ Due to an issue with ESLint, config extension cannot be called from a globally i
 - [ESLint](https://github.com/eslint/eslint) 1.10.3
 - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react) 3.12.0
 - [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb) 2.1.1
+- [eslint-config-gulp](https://github.com/gulpjs/eslint-config-gulp) 2.0.0
 - [Google JavaScript Style Guide](https://github.com/google/styleguide/tree/43d738ab8bb0c797f78506945729946aacbab17d) 43d738ab8b
 - [eslint-plugin-filenames](https://www.npmjs.com/package/eslint-plugin-filenames) 0.2.0
 
