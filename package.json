@@ -1,6 +1,37 @@
 {
-  "name": "eslint-config-defaults",
-  "description": "A set of default eslint configuration",
+  "name"            : "eslint-config-defaults",
+  "description"     : "A set of default eslint configuration",
+
+  "version"         : "8.0.1",
+  "author"          : "Eric Baer <me@ericbaer.com>",
+
+  "homepage"        : "https://github.com/walmartlabs/eslint-config-defaults",
+  "bugs": {
+    "url": "https://github.com/walmartlabs/eslint-config-defaults/issues"
+  },
+
+  "repository"      : "git://github.com/walmartlabs/eslint-config-defaults.git",
+  "private"         : false,
+
+  "dependencies": {
+  },
+
+  "devDependencies" : {
+    "eslint": "^1.10.3",
+    "eslint-plugin-filenames": "^0.2.0"
+  },
+
+  "main": "configurations/eslint.js",
+  "scripts": {
+    "test": "eslint configurations rules"
+  },
+
+  "engines":{
+    "node": ">= 0.10.0"
+  },
+
+  "license": "MIT",
+
   "keywords": [
     "code checker",
     "code linter",
@@ -12,26 +43,5 @@
     "lint",
     "style checker",
     "style linter"
-  ],
-  "version": "8.0.1",
-  "author": "Eric Baer <me@ericbaer.com>",
-  "homepage": "https://github.com/walmartlabs/eslint-config-defaults",
-  "bugs": {
-    "url": "https://github.com/walmartlabs/eslint-config-defaults/issues"
-  },
-  "repository": "git://github.com/walmartlabs/eslint-config-defaults.git",
-  "private": false,
-  "scripts": {
-    "test": "eslint configurations rules"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "eslint": "^1.10.3",
-    "eslint-plugin-filenames": "^0.2.0"
-  },
-  "main": "configurations/eslint.js",
-  "engines": {
-    "node": ">= 0.10.0"
-  },
-  "license": "MIT"
+  ]
 }
