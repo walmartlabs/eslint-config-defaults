@@ -8,7 +8,7 @@ module.exports = {
     "defaults/rules/eslint/node/google",
     "defaults/rules/eslint/strict/google",
     "defaults/rules/eslint/style/google",
-    "defaults/rules/eslint/variables/google",
+    "defaults/rules/eslint/variables/google"
   ],
   "env": {},
   "ecmaFeatures": {},

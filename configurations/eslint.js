@@ -1,3 +1,5 @@
+"use strict";
+
 module.exports = {
   "extends": [
     "defaults/rules/eslint/best-practices/eslint",

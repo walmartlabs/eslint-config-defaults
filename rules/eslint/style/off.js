@@ -112,13 +112,11 @@ module.exports = {
     "sort-vars": 0,
     // require a space after certain keywords
     "space-after-keywords": 0,
-    // require a space before certain keywords
-    "space-before-keywords": 0,
     // require or disallow space before blocks
     "space-before-blocks": 0,
     // require or disallow space before function opening parenthesis
     "space-before-function-paren": 0,
-    // equire a space before certain keywords (fixable)
+    // require a space before certain keywords (fixable)
     "space-before-keywords": 0,
     // require or disallow spaces inside parentheses
     "space-in-parens": 0,

@@ -1,18 +1,6 @@
 {
   "name"            : "eslint-config-defaults",
   "description"     : "A set of default eslint configuration",
-  "keywords": [
-    "code checker",
-    "code linter",
-    "code standards",
-    "code style",
-    "eslint-config",
-    "eslint",
-    "eslintconfig",
-    "lint",
-    "style checker",
-    "style linter"
-  ],
 
   "version"         : "8.0.1",
   "author"          : "Eric Baer <me@ericbaer.com>",
@@ -29,13 +17,31 @@
   },
 
   "devDependencies" : {
+    "eslint": "^1.10.3",
+    "eslint-plugin-filenames": "^0.2.0"
   },
 
-  "main": "./configurations/eslint.js",
+  "main": "configurations/eslint.js",
+  "scripts": {
+    "test": "eslint configurations rules"
+  },
 
   "engines":{
     "node": ">= 0.10.0"
   },
 
-  "license": "MIT"
+  "license": "MIT",
+
+  "keywords": [
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "eslint-config",
+    "eslint",
+    "eslintconfig",
+    "lint",
+    "style checker",
+    "style linter"
+  ]
 }

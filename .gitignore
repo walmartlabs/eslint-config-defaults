@@ -8,6 +8,7 @@ Icon
 ._*
 .Spotlight-V100
 .Trashes
+npm-debug.log*
 
 # --------------------
 # Sublime Text Files
@@ -31,9 +32,9 @@ out/
 .metadata
 *.bak
 .classpath
-.settings/
+.settings
 
 # --------------------
 # App Files
 # --------------------
-node_modules/
+node_modules

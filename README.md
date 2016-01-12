@@ -1,3 +1,5 @@
+[![Travis Status][trav_img]][trav_site]
+
 <h1 align="center">eslint-config-defaults</h1>
 
 <p align="center">
@@ -112,3 +114,6 @@ Due to an issue with ESLint, config extension cannot be called from a globally i
 ## License
 
 [MIT License](http://opensource.org/licenses/MIT)
+
+[trav_img]: https://api.travis-ci.org/walmartlabs/eslint-config-defaults.svg
+[trav_site]: https://travis-ci.org/walmartlabs/eslint-config-defaults
