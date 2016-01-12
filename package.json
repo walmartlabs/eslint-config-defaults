@@ -2,7 +2,7 @@
   "name"            : "eslint-config-defaults",
   "description"     : "A set of default eslint configuration",
 
-  "version"         : "8.0.1",
+  "version"         : "8.0.2",
   "author"          : "Eric Baer <me@ericbaer.com>",
 
   "homepage"        : "https://github.com/walmartlabs/eslint-config-defaults",

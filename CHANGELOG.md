@@ -1,3 +1,13 @@
+## 8.0.2 (2016-01-12)
+
+#### User Facing Changes
+
+* Correct bug where eslint/style configs had duplicate keys
+
+#### Internal Changes
+
+* Add CI (wooooo! thanks @ryan-roemer)
+
 ## 8.0.1 (2016-01-08)
 
 #### User Facing Changes
