@@ -1,10 +1,14 @@
-[![Travis Status][trav_img]][trav_site]
-
 <h1 align="center">eslint-config-defaults</h1>
 
 <p align="center">
-  <a href="https://nodei.co/npm/eslint-config-defaults/">
-    <img src="https://nodei.co/npm/eslint-config-defaults.png?compact=true">
+  <a title='npm version' href="https://npmjs.org/package/eslint-config-defaults">
+    <img src='http://img.shields.io/npm/v/eslint-config-defaults.svg' />
+  </a>
+  <a title='License' href="https://opensource.org/licenses/MIT">
+    <img src='https://img.shields.io/badge/license-MIT-blue.svg' />
+  </a>
+  <a title='Build Status' href='https://travis-ci.org/walmartlabs/eslint-config-defaults'>
+    <img src='https://api.travis-ci.org/walmartlabs/eslint-config-defaults.svg?branch=master' />
   </a>
 </p>
 
@@ -114,6 +118,3 @@ Due to an issue with ESLint, config extension cannot be called from a globally i
 ## License
 
 [MIT License](http://opensource.org/licenses/MIT)
-
-[trav_img]: https://api.travis-ci.org/walmartlabs/eslint-config-defaults.svg
-[trav_site]: https://travis-ci.org/walmartlabs/eslint-config-defaults
