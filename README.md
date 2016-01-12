@@ -115,5 +115,5 @@ Due to an issue with ESLint, config extension cannot be called from a globally i
 
 [MIT License](http://opensource.org/licenses/MIT)
 
-[trav_img]: https://api.travis-ci.org/FormidableLabs/eslint-config-defaults.svg
-[trav_site]: https://travis-ci.org/FormidableLabs/eslint-config-defaults
+[trav_img]: https://api.travis-ci.org/walmartlabs/eslint-config-defaults.svg
+[trav_site]: https://travis-ci.org/walmartlabs/eslint-config-defaults
