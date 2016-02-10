@@ -41,7 +41,10 @@ module.exports = {
     // specify the maximum depth that blocks can be nested
     "max-depth": [0, 4],
     // specify the maximum length of a line in your program
-    "max-len": [0, 80, 4],
+    "max-len": [2, 100, 2, {
+      "ignoreUrls": true,
+      "ignoreComments": false
+    }],
     // specify the maximum depth callbacks can be nested
     "max-nested-callbacks": 0,
     // limits the number of parameters that can be used in the function declaration.
@@ -87,7 +90,7 @@ module.exports = {
     // disallow dangling underscores in identifiers
     "no-underscore-dangle": 0,
     // disallow the use of Boolean literals in conditional expressions
-    "no-unneeded-ternary": 0,
+    "no-unneeded-ternary": [2, { "defaultAssignment": false }],
     // require or disallow padding inside curly braces
     "object-curly-spacing": [2, "always"],
     // allow just one var statement per function
@@ -99,7 +102,7 @@ module.exports = {
     // enforce padding within blocks
     "padded-blocks": [2, "never"],
     // require quotes around object literal property names
-    "quote-props": 0,
+    "quote-props": [2, "as-needed", { "keywords": false, "unnecessary": true, "numbers": false }],
     // specify whether double or single quotes should be used
     "quotes": [2, "single", "avoid-escape"],
     // Require JSDoc comment

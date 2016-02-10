@@ -7,8 +7,7 @@ module.exports = {
     "defaults/rules/eslint/node/airbnb",
     "defaults/rules/eslint/strict/airbnb",
     "defaults/rules/eslint/style/airbnb",
-    "defaults/rules/eslint/variables/airbnb",
-    "defaults/rules/react/airbnb"
+    "defaults/rules/eslint/variables/airbnb"
   ],
   "parser": "babel-eslint",
   "env": {

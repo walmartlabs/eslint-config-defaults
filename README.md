@@ -103,7 +103,7 @@ Due to an issue with ESLint, config extension cannot be called from a globally i
 
 - [ESLint](https://github.com/eslint/eslint) 1.10.3
 - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react) 3.12.0
-- [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb) 2.1.1
+- [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb) 5.0.0
 - [eslint-config-gulp](https://github.com/gulpjs/eslint-config-gulp) 2.0.0
 - [Google JavaScript Style Guide](https://github.com/google/styleguide/tree/43d738ab8bb0c797f78506945729946aacbab17d) 43d738ab8b
 - [eslint-plugin-filenames](https://www.npmjs.com/package/eslint-plugin-filenames) 0.2.0
