@@ -25,7 +25,7 @@ module.exports = {
   },
   "rules": {
     // require braces in arrow function body
-    "arrow-body-style": 0,
+    "arrow-body-style": [2, "as-needed"],
     // require parens in arrow function arguments
     "arrow-parens": 0,
     // require space before/after arrow function's arrow
@@ -49,7 +49,7 @@ module.exports = {
     // require method and property shorthand syntax for object literals
     "object-shorthand": [2, "always"],
     // suggest using arrow functions as callbacks
-    "prefer-arrow-callback": 0,
+    "prefer-arrow-callback": 2,
     // suggest using of const declaration for variables that are never modified after declared
     "prefer-const": 2,
     // suggest using Reflect methods where applicable
@@ -57,7 +57,7 @@ module.exports = {
     // suggest using the spread operator instead of .apply()
     "prefer-spread": 0,
     // suggest using template literals instead of strings concatenation
-    "prefer-template": 0,
+    "prefer-template": 2,
     // disallow generator functions that do not have yield
     "require-yield": 0
   }
