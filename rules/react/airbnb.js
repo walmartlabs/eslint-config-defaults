@@ -22,7 +22,7 @@ module.exports = {
     // Enforce event handler naming conventions in JSX
     "react/jsx-handler-names": [0, {
       "eventHandlerPrefix": "handle",
-      "eventHandlerPropPrefix": "on",
+      "eventHandlerPropPrefix": "on"
     }],
     // Validate props indentation in JSX
     "react/jsx-indent-props": [2, 2],
@@ -47,12 +47,12 @@ module.exports = {
     // Enforce propTypes declarations alphabetical sorting
     "react/jsx-sort-prop-types": [0, {
       "ignoreCase": false,
-      "callbacksLast": false,
+      "callbacksLast": false
     }],
     // Enforce props alphabetical sorting
     "react/jsx-sort-props": [0, {
       "ignoreCase": false,
-      "callbacksLast": false,
+      "callbacksLast": false
     }],
     // Prevent React to be incorrectly marked as unused
     "react/jsx-uses-react": [2, { "pragma": "React" }],
