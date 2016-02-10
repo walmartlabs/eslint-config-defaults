@@ -1,3 +1,13 @@
+## 9.0.0 (2016-02-10)
+
+#### User Facing Changes
+
+* Correct bug where walmart/es6-node enabled ecma features that are unsupported in node@4
+* Add babel-eslint to the walmart config to enable proper es-next parsing
+* Add node-runtime configuration
+* Update README to specify what node version it tracks
+* Update airbnb congif from 2.1.1 -> 5.0.0
+
 ## 8.0.2 (2016-01-12)
 
 #### User Facing Changes
