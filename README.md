@@ -107,6 +107,7 @@ Due to an issue with ESLint, config extension cannot be called from a globally i
 - [eslint-config-gulp](https://github.com/gulpjs/eslint-config-gulp) 2.0.0
 - [Google JavaScript Style Guide](https://github.com/google/styleguide/tree/43d738ab8bb0c797f78506945729946aacbab17d) 43d738ab8b
 - [eslint-plugin-filenames](https://www.npmjs.com/package/eslint-plugin-filenames) 0.2.0
+- [Node.js](https://github.com/nodejs/node/tree/a84bf2ce68a1ffd5c09c9ff297a56814cd79923f) a84bf2ce68a1ffd5c09c9ff297a56814cd79923f
 
 ## And A Special Thanks To
 
