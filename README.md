@@ -36,6 +36,7 @@ This package includes the following complete and ready to use configurations:
 - `defaults/configurations/eslint` - The config [recommended](https://github.com/eslint/eslint/blob/master/conf/eslint.json) by ESLint
 - `defaults/configurations/google` - The [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
 - `defaults/configurations/gulp` - The [Gulp ESLint config](https://github.com/gulpjs/eslint-config-gulp)
+- `defaults/configurations/node-runtime` - The config [used for the Node.js runtime](https://github.com/nodejs/node/blob/master/.eslintrc)
 - `defaults/configurations/off` - Disable all rules (ESLint's default at 1.0.0+)
 - `defaults/configurations/airbnb/es5` - Config from the [AirBnB Style Guide](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
 - `defaults/configurations/airbnb/es6-react` - Config from the [AirBnB Style Guide](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
