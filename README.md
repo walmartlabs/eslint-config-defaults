@@ -41,11 +41,11 @@ This package includes the following complete and ready to use configurations:
 - `defaults/configurations/airbnb/es6-react` - Config from the [AirBnB Style Guide](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
 - `defaults/configurations/airbnb/es6` - Config from the [AirBnB Style Guide](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
 - `defaults/configurations/walmart/es5-browser` - Walmart ES5 + browser
-- `defaults/configurations/walmart/es5-node` - Walmart ES5 + node
+- `defaults/configurations/walmart/es5-node` - Walmart ES5 + node < 4.x
 - `defaults/configurations/walmart/es5-test` - Walmart ES5 + test
 - `defaults/configurations/walmart/es5` - Walmart ES5 config
 - `defaults/configurations/walmart/es6-browser` - Walmart ES6 + browser
-- `defaults/configurations/walmart/es6-node` - Walmart ES6 + node
+- `defaults/configurations/walmart/es6-node` - Walmart ES6 + node 4.x
 - `defaults/configurations/walmart/es6-react-test` - Walmart ES6 + react + test
 - `defaults/configurations/walmart/es6-react` - Walmart ES6 + react
 - `defaults/configurations/walmart/es6-test` - Walmart ES6 + test
@@ -112,6 +112,7 @@ Due to an issue with ESLint, config extension cannot be called from a globally i
 * [Keith Cirkel](https://github.com/keithamus) for painstakingly formatting all of ESLint's rules into JSON in [eslint-config-strict](https://github.com/keithamus/eslint-config-strict)
 * [AirBnB](https://github.com/airbnb/javascript) for sharing all of their config in [JavaScript Style Guide](https://github.com/airbnb/javascript)
 * [Google](https://google.github.io/styleguide/javascriptguide.xml) for sharing their styleguide
+* [ES-Next Compat Table](https://github.com/kangax/compat-table) for the [excellent docs on node features](https://kangax.github.io/compat-table/es6/#node4)
 
 ***
 
