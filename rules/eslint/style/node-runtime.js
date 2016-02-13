@@ -110,20 +110,16 @@ module.exports = {
     "semi": 2,
     // sort variables within the same declaration block
     "sort-vars": 0,
-    // require a space after certain keywords
-    "space-after-keywords": 2,
+    // require a space before/after certain keywords
+    "keyword-spacing": [2, {"before": false, "after": true}],
     // require or disallow space before blocks
     "space-before-blocks": [2, "always"],
     // require or disallow space before function opening parenthesis
     "space-before-function-paren": [2, "never"],
-    // require a space before certain keywords (fixable)
-    "space-before-keywords": 0,
     // require or disallow spaces inside parentheses
     "space-in-parens": [2, "never"],
     // require spaces around operators
     "space-infix-ops": 2,
-    // require a space after return, throw, and case
-    "space-return-throw-case": 2,
     // Require or disallow spaces before/after unary operators
     "space-unary-ops": 2,
     // require or disallow a space immediately following the // or /* in a comment
