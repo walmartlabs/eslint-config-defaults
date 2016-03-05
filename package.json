@@ -1,29 +1,39 @@
 {
-  "name": "eslint-config-defaults",
-  "description": "A set of default eslint configuration",
-  "version": "11.0.0-0",
-  "author": "Eric Baer <me@ericbaer.com>",
-  "homepage": "https://github.com/walmartlabs/eslint-config-defaults",
+  "name"            : "eslint-config-defaults",
+  "description"     : "A set of default eslint configuration",
+
+  "version"         : "10.0.0-alpha.1",
+  "author"          : "Eric Baer <me@ericbaer.com>",
+
+  "homepage"        : "https://github.com/walmartlabs/eslint-config-defaults",
   "bugs": {
     "url": "https://github.com/walmartlabs/eslint-config-defaults/issues"
   },
-  "repository": "git://github.com/walmartlabs/eslint-config-defaults.git",
-  "private": false,
-  "dependencies": {},
-  "devDependencies": {
+
+  "repository"      : "git://github.com/walmartlabs/eslint-config-defaults.git",
+  "private"         : false,
+
+  "dependencies": {
+  },
+
+  "devDependencies" : {
     "babel-eslint": "4.1.8",
     "eslint": "^2.0.0",
     "eslint-plugin-filenames": "0.2.0",
     "eslint-plugin-react": "3.12.0"
   },
+
   "main": "configurations/eslint.js",
   "scripts": {
     "test": "eslint configurations rules"
   },
-  "engines": {
+
+  "engines":{
     "node": ">= 0.10.0"
   },
+
   "license": "MIT",
+
   "keywords": [
     "code checker",
     "code linter",
