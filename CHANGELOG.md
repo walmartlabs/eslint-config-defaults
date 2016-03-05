@@ -1,3 +1,11 @@
+## 10.0.0-alpha1 (2016-03-04)
+
+#### User Facing Changes
+
+* Replace `no-empty-label` with `no-labels`
+* Replace `space-after-keywords`, `space-before-keywords`, `space-return-throw-case` with `keyword-spacing`
+* Update devDependency to ESLint 2.x.x
+
 ## 9.0.0 (2016-02-10)
 
 #### User Facing Changes
