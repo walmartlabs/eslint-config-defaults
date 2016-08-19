@@ -6,6 +6,6 @@ module.exports = {
   ],
   "rules": {
     // Enforce filenames
-    "filenames/filenames": 0
+    "filenames/match-regex": 0
   }
 };

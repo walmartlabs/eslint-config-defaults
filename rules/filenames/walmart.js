@@ -6,6 +6,6 @@ module.exports = {
   ],
   "rules": {
     // Enforce dash-cased filenames
-    "filenames/filenames": [2, "^[a-z0-9\\-\\.]+$"]
+    "filenames/match-regex": [2, "^[a-z0-9\\-\\.]+$"]
   }
 };
