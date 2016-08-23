@@ -1,3 +1,15 @@
+## This project is DEPRECATED. It has been replaced by more specific projects.
+
+When I started this project, I wanted `eslint-config-defaults` to be the easiest way to get started with eslint and as a part of that I wanted to have lots of options for people. At the time the `extends` feature was brand new and very few people were using it and some of this config, like Google's was not available in other places. Since then, many many companies including eslint itself began publishing their own `eslint-config-<name>`. I think this project served it’s purpose (promoting eslint and the use of the extention feature) but now we don’t need a one stop shop. This project is no longer maintained. Updated config can be grabbed at the individual project repos.
+
+https://github.com/walmartlabs/eslint-config-walmart
+https://github.com/google/eslint-config-google
+https://github.com/airbnb/javascript
+https://github.com/gulpjs/eslint-config-gulp
+https://github.com/FormidableLabs/eslint-config-formidable
+
+***
+
 <h1 align="center">eslint-config-defaults</h1>
 
 <p align="center">
