@@ -19,7 +19,8 @@ module.exports = {
     // enforce the spacing around the * in generator functions
     "generator-star-spacing": 2,
     // disallow arrow functions where a condition is expected
-    "no-arrow-condition": 2,
+    "no-confusing-arrow": 2,
+    "no-constant-condition": 2,
     // disallow modifying variables of class declarations
     "no-class-assign": 2,
     // disallow modifying variables that are declared using const
